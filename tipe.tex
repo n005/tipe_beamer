@@ -54,6 +54,7 @@
 \usepackage{tikz}
 \usepackage{bm}
 \usepackage{csquotes}
+\usepackage{wrapfig}
 
 %-------- for bibliography -----------------
 \usepackage{biblatex}
@@ -95,10 +96,11 @@
 	\frametitle{Introduction}
 		\justifying
 		\textit{Besoin grandissant de solution GNSS:}
-		\begin{center}
+		\begin{figure}
+			\centering
 			\includegraphics[scale=0.8]{./Figures/stats.png} \\
-			{\footnotesize Appareils GNSS par plate-forme. \textit{Market report, ESA}}
-		\end{center}
+			\caption {Appareils GNSS par plate-forme. \textit{Market report, ESA}}
+		\end{figure}
 \end{frame}
 \begin{frame}
 	\frametitle{Définition GNSS}
@@ -106,18 +108,55 @@
 		\textbf{GNSS:} \textit{Global Navigation Satellite System} (Système de navigation par satellite global)\\
 		Constellation de satellites permettant de localiser un point sur la Terre.
 \end{frame}
-%---------- DEFINITION/PRELIMINARY ---------------------
-\section{Motivations}
 \begin{frame}
-	\frametitle{Motivations du TIPE}
+	\frametitle{Fonctionnement du GPS}
+	\justifying
+	
+\end{frame}
+\begin{frame}
+	\frametitle{Sources d'incertitude}
+	\justifying
+\end{frame}
+%---------- DEFINITION/PRELIMINARY ---------------------
+\section{L'ionosphère}
+\begin{frame}
+	\frametitle{Définition}
+	\begin{columns}
 	    \justifying
-	    \textbf{Motivations:} 
-	    \begin{itemize}
-            \item \textbf{Précision du GNSS} - Demande d'une précision du GPS en Ville.
-            \item \textbf{Etude physique de l'atomsphère} - Quel impact à l'atmosphere.
-            \item \textbf{Informatiques} - Utilisation d'outils de modélisations.
-        \end{itemize}
-\end{frame} 
+		\begin{column}{0.5\textwidth}
+	    	\textbf{L'ionosphère :} 
+			L'ionosphère est la couche de l'atmosphère située entre 60 et 1000 km d'altitude.
+			Elle est constituée de particules chargées électriquement, les ions, qui sont en mouvement.
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.7\textwidth]{./Figures/iono_ucar.png}
+				\caption {\textit{Source : UCAR}}	
+			\end{figure}
+		\end{column}	
+	\end{columns}
+\end{frame}
+\begin{frame}
+	\frametitle{Impact sur la propagation}
+		\justifying
+		\begin{columns}
+			\begin{column}{0.5\textwidth}
+				\textbf{Impact sur la propagation :} 
+				\begin{itemize}
+					\item \textbf{Propagation directe} - La propagation directe est la propagation d'une onde radio entre deux points sans interaction avec l'ionosphère.
+					\item \textbf{Propagation diffusée} - La propagation diffusée est la propagation d'une onde radio entre deux points avec interaction avec l'ionosphère.
+				\end{itemize}
+			\end{column}
+			\begin{column}{0.5\textwidth}
+				\begin{figure}
+					\centering
+					\includegraphics[width=1\textwidth]{./Figures/iono_e3a.png}
+					\caption {\textit{Source : Sujet E3A}}	
+				\end{figure}
+			\end{column}
+	\end{columns}
+\end{frame}
 
 %----------- MAIN RESULTS ------------------------------
 \section{Objectifs \& Expérimentations}
