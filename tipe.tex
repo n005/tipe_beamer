@@ -60,7 +60,7 @@
 \usepackage{biblatex}
 \setbeamertemplate{bibliography item}{\insertbiblabel}
 \addbibresource{References.bib}
-\setbeamertemplate{frametitle continuation}{\frametitle{\color{white}List of References}}
+\setbeamertemplate{frametitle continuation}{\frametitle{\color{white}Bibliographie}}
 
 %-------- WMSU Backgound -------------------
 %\usebackgroundtemplate{%
@@ -111,7 +111,11 @@
 \begin{frame}
 	\frametitle{Fonctionnement du GPS}
 	\justifying
-	
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.7\textwidth]{./Figures/GPS_XENS.png} \\
+		\caption {Fonctionnement du GPS. \textit{Source: Sujet X-ENS 2016}}
+	\end{figure}
 \end{frame}
 \begin{frame}
 	\frametitle{Sources d'incertitude}
@@ -157,6 +161,12 @@
 			\end{column}
 	\end{columns}
 \end{frame}
+\begin{frame}
+	\framesubtitle{TEC}
+	\textit{Total Electron Content} (Contenu total d'électrons)\\
+	\textbf{TEC:} Quantité d'électrons présents dans une couche de l'ionosphère.\\
+	
+\end{frame}
 
 %----------- MAIN RESULTS ------------------------------
 \section{Objectifs \& Expérimentations}
@@ -184,6 +194,11 @@
             \item \textbf{Informatiques} - Informatique Pratique
             \item \textbf{Mathématiques} - Mathématiques Appliquées
         \end{itemize}
+\end{frame}
+
+\begin{frame}
+	\cite{knuthwebsite}
+	\printbibliography
 \end{frame}
 %--------- THANK YOU Text ------- texlive-most -------------------
 \begin{frame}

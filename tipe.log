@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.3.27)  5 APR 2023 17:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.3.27)  5 APR 2023 17:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1205,7 +1205,7 @@ Package biblatex Info: ... file 'tipe.bbl' found.
 Package biblatex Info: Reference section=0 on input line 89.
 Package biblatex Info: Reference segment=0 on input line 89.
  (./tipe.nav)
-<./Figures/logo Paul Constans.jpg, id=55, 181.3977pt x 98.769pt>
+<./Figures/logo Paul Constans.jpg, id=61, 181.3977pt x 98.769pt>
 File: ./Figures/logo Paul Constans.jpg Graphic file (type jpg)
 <use ./Figures/logo Paul Constans.jpg>
 Package pdftex.def Info: ./Figures/logo Paul Constans.jpg  used on input line 91.
@@ -1215,7 +1215,7 @@ Package pdftex.def Info: ./Figures/logo Paul Constans.jpg  used on input line 91
  <./Figures/logo Paul Constans.jpg>] (./tipe.toc) [2
 
 ]
-<./Figures/stats.png, id=157, 303.38344pt x 162.6075pt>
+<./Figures/stats.png, id=170, 303.38344pt x 162.6075pt>
 File: ./Figures/stats.png Graphic file (type png)
 <use ./Figures/stats.png>
 Package pdftex.def Info: ./Figures/stats.png  used on input line 104.
@@ -1224,39 +1224,45 @@ Package pdftex.def Info: ./Figures/stats.png  used on input line 104.
 
  <./Figures/stats.png>] [4
 
-] [5
+]
+<./Figures/GPS_XENS.png, id=253, 768.8725pt x 366.36874pt>
+File: ./Figures/GPS_XENS.png Graphic file (type png)
+<use ./Figures/GPS_XENS.png>
+Package pdftex.def Info: ./Figures/GPS_XENS.png  used on input line 119.
+(pdftex.def)             Requested size: 239.60567pt x 114.1713pt.
+ [5
 
-] [6
+ <./Figures/GPS_XENS.png>] [6
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 139.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 143.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 139.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 143.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 139.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 143.
  (/usr/share/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 139.
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 143.
  (/usr/share/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mathkerncmss.
 )
-<./Figures/iono_ucar.png, id=314, 564.1075pt x 761.84625pt>
+<./Figures/iono_ucar.png, id=337, 564.1075pt x 761.84625pt>
 File: ./Figures/iono_ucar.png Graphic file (type png)
 <use ./Figures/iono_ucar.png>
-Package pdftex.def Info: ./Figures/iono_ucar.png  used on input line 139.
+Package pdftex.def Info: ./Figures/iono_ucar.png  used on input line 143.
 (pdftex.def)             Requested size: 119.80283pt x 161.79428pt.
  [7
 
  <./Figures/iono_ucar.png>]
-<./Figures/iono_e3a.png, id=358, 948.54375pt x 660.4675pt>
+<./Figures/iono_e3a.png, id=383, 948.54375pt x 660.4675pt>
 File: ./Figures/iono_e3a.png Graphic file (type png)
 <use ./Figures/iono_e3a.png>
-Package pdftex.def Info: ./Figures/iono_e3a.png  used on input line 159.
+Package pdftex.def Info: ./Figures/iono_e3a.png  used on input line 163.
 (pdftex.def)             Requested size: 171.14764pt x 119.1612pt.
  [8
 
@@ -1264,12 +1270,21 @@ Package pdftex.def Info: ./Figures/iono_e3a.png  used on input line 159.
 
 ] [10
 
+] [11
+
+]
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10.95> not available
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 202.
+
+[12
+
 ]
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 197.
+(Font)              using `OT1/cmr/bx/n' instead on input line 212.
 
-[11
+[13
 
 ]
 \tf@nav=\write8
@@ -1286,24 +1301,24 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `tipe.out' has not changed.
-(rerunfilecheck)             Checksum: 7FF20632A17D2B1593758F609071930A;578.
+(rerunfilecheck)             Checksum: 72B4455244E7661D2ED68F0BC9E425E9;677.
 Package logreq Info: Writing requests to 'tipe.run.xml'.
 \openout1 = `tipe.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36310 strings out of 478238
- 720899 string characters out of 5850456
- 1402126 words of memory out of 5000000
- 53857 multiletter control sequences out of 15000+600000
- 485846 words of font info for 81 fonts, out of 8000000 for 9000
+ 36581 strings out of 478238
+ 726654 string characters out of 5850456
+ 1403178 words of memory out of 5000000
+ 54119 multiletter control sequences out of 15000+600000
+ 486315 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,19n,122p,763b,2320s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb>
-Output written on tipe.pdf (11 pages, 654192 bytes).
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on tipe.pdf (13 pages, 758211 bytes).
 PDF statistics:
- 578 PDF objects out of 1000 (max. 8388607)
- 500 compressed objects within 5 object streams
- 27 named destinations out of 1000 (max. 500000)
- 179 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 707 PDF objects out of 1000 (max. 8388607)
+ 617 compressed objects within 7 object streams
+ 33 named destinations out of 1000 (max. 500000)
+ 192 words of extra memory for PDF output out of 10000 (max. 10000000)
 

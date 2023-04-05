@@ -1,9 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
-[1] Config.pm:310> INFO - Logfile is 'tipe.blg'
-[128] biber:340> INFO - === mer. avril  5, 2023, 17:35:07
-[149] Biber.pm:418> INFO - Reading 'tipe.bcf'
-[248] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
-[268] bbl.pm:654> INFO - Writing 'tipe.bbl' with encoding 'UTF-8'
-[268] bbl.pm:757> INFO - Output to tipe.bbl
-[268] Biber.pm:130> WARN - The file 'tipe.bcf' does not contain any citations!
-[268] Biber.pm:132> INFO - WARNINGS: 1
+[0] Config.pm:310> INFO - Logfile is 'tipe.blg'
+[137] biber:340> INFO - === mer. avril  5, 2023, 17:52:36
+[159] Biber.pm:418> INFO - Reading 'tipe.bcf'
+[263] Biber.pm:972> INFO - Found 1 citekeys in bib section 0
+[282] Biber.pm:4383> INFO - Processing section 0
+[303] Biber.pm:4574> INFO - Looking for bibtex file 'References.bib' for section 0
+[304] bibtex.pm:1713> INFO - LaTeX decoding ...
+[308] bibtex.pm:1518> INFO - Found BibTeX data source 'References.bib'
+[326] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[327] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[327] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'fr-FR'
+[327] Biber.pm:4209> INFO - No sort tailoring available for locale 'fr-FR'
+[337] bbl.pm:654> INFO - Writing 'tipe.bbl' with encoding 'UTF-8'
+[339] bbl.pm:757> INFO - Output to tipe.bbl
