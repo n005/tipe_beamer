@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.3.27)  5 APR 2023 17:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.3.27)  5 APR 2023 20:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1205,7 +1205,7 @@ Package biblatex Info: ... file 'tipe.bbl' found.
 Package biblatex Info: Reference section=0 on input line 89.
 Package biblatex Info: Reference segment=0 on input line 89.
  (./tipe.nav)
-<./Figures/logo Paul Constans.jpg, id=61, 181.3977pt x 98.769pt>
+<./Figures/logo Paul Constans.jpg, id=64, 181.3977pt x 98.769pt>
 File: ./Figures/logo Paul Constans.jpg Graphic file (type jpg)
 <use ./Figures/logo Paul Constans.jpg>
 Package pdftex.def Info: ./Figures/logo Paul Constans.jpg  used on input line 91.
@@ -1215,55 +1215,60 @@ Package pdftex.def Info: ./Figures/logo Paul Constans.jpg  used on input line 91
  <./Figures/logo Paul Constans.jpg>] (./tipe.toc) [2
 
 ]
-<./Figures/stats.png, id=170, 303.38344pt x 162.6075pt>
+<./Figures/stats.png, id=175, 303.38344pt x 162.6075pt>
 File: ./Figures/stats.png Graphic file (type png)
 <use ./Figures/stats.png>
 Package pdftex.def Info: ./Figures/stats.png  used on input line 104.
 (pdftex.def)             Requested size: 242.70708pt x 130.08617pt.
  [3
 
- <./Figures/stats.png>] [4
+ <./Figures/stats.png>]
+<./Figures/constellation.jpg, id=222, 1706.375pt x 1455.4375pt>
+File: ./Figures/constellation.jpg Graphic file (type jpg)
+<use ./Figures/constellation.jpg>
+Package pdftex.def Info: ./Figures/constellation.jpg  used on input line 115.
+(pdftex.def)             Requested size: 102.68962pt x 87.56677pt.
+ [4
 
-]
-<./Figures/GPS_XENS.png, id=253, 768.8725pt x 366.36874pt>
-File: ./Figures/GPS_XENS.png Graphic file (type png)
-<use ./Figures/GPS_XENS.png>
-Package pdftex.def Info: ./Figures/GPS_XENS.png  used on input line 119.
-(pdftex.def)             Requested size: 239.60567pt x 114.1713pt.
- [5
-
- <./Figures/GPS_XENS.png>] [6
-
-]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 143.
+ <./Figures/constellation.jpg>]
+<./Figures/ENS_gnss.png, id=267, 481.8pt x 461.725pt>
+File: ./Figures/ENS_gnss.png Graphic file (type png)
+<use ./Figures/ENS_gnss.png>
+Package pdftex.def Info: ./Figures/ENS_gnss.png  used on input line 144.
+(pdftex.def)             Requested size: 154.03183pt x 147.6141pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 144.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 143.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 144.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 143.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 144.
  (/usr/share/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 143.
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 144.
  (/usr/share/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mathkerncmss.
-)
-<./Figures/iono_ucar.png, id=337, 564.1075pt x 761.84625pt>
+) [5
+
+ <./Figures/ENS_gnss.png>] [6
+
+]
+<./Figures/iono_ucar.png, id=367, 564.1075pt x 761.84625pt>
 File: ./Figures/iono_ucar.png Graphic file (type png)
 <use ./Figures/iono_ucar.png>
-Package pdftex.def Info: ./Figures/iono_ucar.png  used on input line 143.
+Package pdftex.def Info: ./Figures/iono_ucar.png  used on input line 181.
 (pdftex.def)             Requested size: 119.80283pt x 161.79428pt.
  [7
 
  <./Figures/iono_ucar.png>]
-<./Figures/iono_e3a.png, id=383, 948.54375pt x 660.4675pt>
+<./Figures/iono_e3a.png, id=415, 369.38pt x 498.86375pt>
 File: ./Figures/iono_e3a.png Graphic file (type png)
 <use ./Figures/iono_e3a.png>
-Package pdftex.def Info: ./Figures/iono_e3a.png  used on input line 163.
-(pdftex.def)             Requested size: 171.14764pt x 119.1612pt.
+Package pdftex.def Info: ./Figures/iono_e3a.png  used on input line 201.
+(pdftex.def)             Requested size: 119.80283pt x 161.79387pt.
  [8
 
  <./Figures/iono_e3a.png>] [9
@@ -1274,15 +1279,15 @@ Package pdftex.def Info: ./Figures/iono_e3a.png  used on input line 163.
 
 ]
 
-LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10.95> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 202.
+LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
+(Font)              using `OT1/cmr/bx/n' instead on input line 245.
 
 [12
 
 ]
 
-LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 212.
+LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10.95> not available
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 251.
 
 [13
 
@@ -1301,24 +1306,24 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `tipe.out' has not changed.
-(rerunfilecheck)             Checksum: 72B4455244E7661D2ED68F0BC9E425E9;677.
+(rerunfilecheck)             Checksum: 8561A93154D5C19E75D44144CB76E15F;756.
 Package logreq Info: Writing requests to 'tipe.run.xml'.
 \openout1 = `tipe.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36581 strings out of 478238
- 726654 string characters out of 5850456
- 1403178 words of memory out of 5000000
- 54119 multiletter control sequences out of 15000+600000
- 486315 words of font info for 83 fonts, out of 8000000 for 9000
+ 36702 strings out of 478238
+ 729197 string characters out of 5850456
+ 1402325 words of memory out of 5000000
+ 54217 multiletter control sequences out of 15000+600000
+ 498019 words of font info for 120 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,19n,122p,763b,2320s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on tipe.pdf (13 pages, 758211 bytes).
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on tipe.pdf (13 pages, 1090863 bytes).
 PDF statistics:
- 707 PDF objects out of 1000 (max. 8388607)
- 617 compressed objects within 7 object streams
- 33 named destinations out of 1000 (max. 500000)
- 192 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 774 PDF objects out of 1000 (max. 8388607)
+ 663 compressed objects within 7 object streams
+ 38 named destinations out of 1000 (max. 500000)
+ 205 words of extra memory for PDF output out of 10000 (max. 10000000)
 

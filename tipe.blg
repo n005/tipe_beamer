@@ -1,15 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'tipe.blg'
-[137] biber:340> INFO - === mer. avril  5, 2023, 17:52:36
-[159] Biber.pm:418> INFO - Reading 'tipe.bcf'
-[263] Biber.pm:972> INFO - Found 1 citekeys in bib section 0
-[282] Biber.pm:4383> INFO - Processing section 0
-[303] Biber.pm:4574> INFO - Looking for bibtex file 'References.bib' for section 0
-[304] bibtex.pm:1713> INFO - LaTeX decoding ...
-[308] bibtex.pm:1518> INFO - Found BibTeX data source 'References.bib'
-[326] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[327] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[327] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'fr-FR'
-[327] Biber.pm:4209> INFO - No sort tailoring available for locale 'fr-FR'
-[337] bbl.pm:654> INFO - Writing 'tipe.bbl' with encoding 'UTF-8'
-[339] bbl.pm:757> INFO - Output to tipe.bbl
+[126] biber:340> INFO - === mer. avril  5, 2023, 20:22:23
+[145] Biber.pm:418> INFO - Reading 'tipe.bcf'
+[239] Biber.pm:972> INFO - Found 5 citekeys in bib section 0
+[259] Biber.pm:4383> INFO - Processing section 0
+[273] Biber.pm:4574> INFO - Looking for bibtex file 'References.bib' for section 0
+[275] bibtex.pm:1713> INFO - LaTeX decoding ...
+[279] bibtex.pm:1518> INFO - Found BibTeX data source 'References.bib'
+[353] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[353] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[353] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'fr-FR'
+[353] Biber.pm:4209> INFO - No sort tailoring available for locale 'fr-FR'
+[367] bbl.pm:654> INFO - Writing 'tipe.bbl' with encoding 'UTF-8'
+[370] bbl.pm:757> INFO - Output to tipe.bbl

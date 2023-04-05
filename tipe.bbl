@@ -19,33 +19,126 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
-    \entry{knuthwebsite}{online}{}
+    \entry{ens}{online}{}
       \name{author}{1}{}{%
-        {{hash=1dd533466eb3313074d496394d319407}{%
-           family={Knuth},
-           familyi={K\bibinitperiod},
-           given={Donald},
-           giveni={D\bibinitperiod}}}%
+        {{hash=c304e85c943ea0178b1e7e413cc99ede}{%
+           family={Calais},
+           familyi={C\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
       }
-      \strng{namehash}{1dd533466eb3313074d496394d319407}
-      \strng{fullhash}{1dd533466eb3313074d496394d319407}
-      \strng{bibnamehash}{1dd533466eb3313074d496394d319407}
-      \strng{authorbibnamehash}{1dd533466eb3313074d496394d319407}
-      \strng{authornamehash}{1dd533466eb3313074d496394d319407}
-      \strng{authorfullhash}{1dd533466eb3313074d496394d319407}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \strng{namehash}{c304e85c943ea0178b1e7e413cc99ede}
+      \strng{fullhash}{c304e85c943ea0178b1e7e413cc99ede}
+      \strng{bibnamehash}{c304e85c943ea0178b1e7e413cc99ede}
+      \strng{authorbibnamehash}{c304e85c943ea0178b1e7e413cc99ede}
+      \strng{authornamehash}{c304e85c943ea0178b1e7e413cc99ede}
+      \strng{authorfullhash}{c304e85c943ea0178b1e7e413cc99ede}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{addendum}{(accessed: 01.09.2016)}
-      \field{title}{Knuth: Computers and Typesetting}
+      \field{title}{Géopositionnement GNSS, principe et applications}
       \verb{urlraw}
-      \verb http://www-cs-faculty.stanford.edu/~uno/abcde.html
+      \verb https://www.geologie.ens.fr/~ecalais/teaching/geopositionnement-gnss
       \endverb
       \verb{url}
-      \verb http://www-cs-faculty.stanford.edu/~uno/abcde.html
+      \verb https://www.geologie.ens.fr/~ecalais/teaching/geopositionnement-gnss
       \endverb
-      \keyw{latex,knuth}
+    \endentry
+    \entry{marketreport}{online}{}
+      \name{author}{1}{}{%
+        {{hash=afafc7a086f96baed3f76650e4fcdc5d}{%
+           family={ESA},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{afafc7a086f96baed3f76650e4fcdc5d}
+      \strng{fullhash}{afafc7a086f96baed3f76650e4fcdc5d}
+      \strng{bibnamehash}{afafc7a086f96baed3f76650e4fcdc5d}
+      \strng{authorbibnamehash}{afafc7a086f96baed3f76650e4fcdc5d}
+      \strng{authornamehash}{afafc7a086f96baed3f76650e4fcdc5d}
+      \strng{authorfullhash}{afafc7a086f96baed3f76650e4fcdc5d}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{GNSS Market Report}
+      \verb{urlraw}
+      \verb https://gssc.esa.int/navipedia/index.php/GNSS_Market_Report#Report_Overview
+      \endverb
+      \verb{url}
+      \verb https://gssc.esa.int/navipedia/index.php/GNSS_Market_Report#Report_Overview
+      \endverb
+    \endentry
+    \entry{cons}{online}{}
+      \name{author}{1}{}{%
+        {{hash=96a68ae615f582c8eccd9a641f599852}{%
+           family={GPS.gov},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{96a68ae615f582c8eccd9a641f599852}
+      \strng{fullhash}{96a68ae615f582c8eccd9a641f599852}
+      \strng{bibnamehash}{96a68ae615f582c8eccd9a641f599852}
+      \strng{authorbibnamehash}{96a68ae615f582c8eccd9a641f599852}
+      \strng{authornamehash}{96a68ae615f582c8eccd9a641f599852}
+      \strng{authorfullhash}{96a68ae615f582c8eccd9a641f599852}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{GPS Constellation}
+      \verb{urlraw}
+      \verb https://www.gps.gov/multimedia/images/constellation.jpg
+      \endverb
+      \verb{url}
+      \verb https://www.gps.gov/multimedia/images/constellation.jpg
+      \endverb
+    \endentry
+    \entry{e3a}{booklet}{}
+      \name{author}{1}{}{%
+        {{hash=95bb00077a6c48122fa03ddd688f5eca}{%
+           family={Polytech},
+           familyi={P\bibinitperiod},
+           given={E3A\bibnamedelima -},
+           giveni={E\bibinitperiod\bibinitdelim \bibinithyphendelim \bibinitperiod}}}%
+      }
+      \strng{namehash}{95bb00077a6c48122fa03ddd688f5eca}
+      \strng{fullhash}{95bb00077a6c48122fa03ddd688f5eca}
+      \strng{bibnamehash}{95bb00077a6c48122fa03ddd688f5eca}
+      \strng{authorbibnamehash}{95bb00077a6c48122fa03ddd688f5eca}
+      \strng{authornamehash}{95bb00077a6c48122fa03ddd688f5eca}
+      \strng{authorfullhash}{95bb00077a6c48122fa03ddd688f5eca}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Épreuve de Physique}
+      \field{year}{2020}
+    \endentry
+    \entry{ucar}{online}{}
+      \name{author}{1}{}{%
+        {{hash=f35c967082c7802b22e5c4d178cb3b95}{%
+           family={University\bibnamedelimb Corporation\bibnamedelimb for\bibnamedelimb Atmospheric\bibnamedelima Research},
+           familyi={U\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim f\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Randy\bibnamedelima Russell},
+           giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{f35c967082c7802b22e5c4d178cb3b95}
+      \strng{fullhash}{f35c967082c7802b22e5c4d178cb3b95}
+      \strng{bibnamehash}{f35c967082c7802b22e5c4d178cb3b95}
+      \strng{authorbibnamehash}{f35c967082c7802b22e5c4d178cb3b95}
+      \strng{authornamehash}{f35c967082c7802b22e5c4d178cb3b95}
+      \strng{authorfullhash}{f35c967082c7802b22e5c4d178cb3b95}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Regions of the ionosphere, showing the D, E, and F layers.}
+      \verb{urlraw}
+      \verb https://scied.ucar.edu/learning-zone/atmosphere/ionosphere
+      \endverb
+      \verb{url}
+      \verb https://scied.ucar.edu/learning-zone/atmosphere/ionosphere
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

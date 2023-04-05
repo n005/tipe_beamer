@@ -99,7 +99,7 @@
 		\begin{figure}
 			\centering
 			\includegraphics[scale=0.8]{./Figures/stats.png} \\
-			\caption {Appareils GNSS par plate-forme. \textit{Market report, ESA}}
+			\caption {Appareils GNSS par plate-forme. \cite{marketreport}}
 		\end{figure}
 \end{frame}
 \begin{frame}
@@ -107,19 +107,57 @@
 		\justifying
 		\textbf{GNSS:} \textit{Global Navigation Satellite System} (Système de navigation par satellite global)\\
 		Constellation de satellites permettant de localiser un point sur la Terre.
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.3\textwidth]{./Figures/constellation.jpg} \\
+			\caption {Système de navigation par satellite global. \cite{cons}}
+		\end{figure}
 \end{frame}
+
 \begin{frame}
 	\frametitle{Fonctionnement du GPS}
 	\justifying
-	\begin{figure}
-		\centering
-		\includegraphics[width=0.7\textwidth]{./Figures/GPS_XENS.png} \\
-		\caption {Fonctionnement du GPS. \textit{Source: Sujet X-ENS 2016}}
-	\end{figure}
+	\begin{columns}
+
+		\begin{column}{0.5\textwidth}
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.9\textwidth]{./Figures/ENS_gnss.png} \\
+				\caption {Fonctionnement du GPS. \cite{ens}}
+			\end{figure}
+		\end{column}
+
+		\begin{column}{0.5\textwidth}
+			Une sphère de rayon $\rho_1 = (\Delta t_1 \cdot c) $ \\
+			3 satellites, intersection des 3 sphères.
+			\newline
+			Et donc {\footnotesize$\rho_s^s = \sqrt{(X^s-X_r)^2 + (Y^s-Y_r)^2 + (Z^s-Z_r)^2}$} \\
+			Avec:
+			\begin{itemize}
+				\item $X^s, Y^s, Z^s$ : coordonnées du satellite $s$ ;
+				\item $X_r, Y_r, Z_r$ : coordonnées du récepteur.
+			\end{itemize}
+		\end{column}
+
+	\end{columns}
+
 \end{frame}
+
 \begin{frame}
 	\frametitle{Sources d'incertitude}
 	\justifying
+	\begin{itemize}
+		\item Les horloges des satellites et des récepteurs ne sont pas synchronisés. ($\delta t$)
+		\item Réfraction lors de la propagation dans l’atmosphère :
+		\item \begin{enumerate}
+			\item Troposphérique (dépend de la température et de la pression atmosphérique) ($T_r^s$)
+			\item Ionosphérique (dépend de la densité ionique) ($I_r^s$)
+		\end{enumerate}
+	\end{itemize}
+	Modèle plus complet :
+	\begin{equation}
+		\boxed{R_r^s = \rho_r^s + c\delta t + T_r^s + I_r^s + ...}
+	\end{equation}
 \end{frame}
 %---------- DEFINITION/PRELIMINARY ---------------------
 \section{L'ionosphère}
@@ -136,7 +174,7 @@
 			\begin{figure}
 				\centering
 				\includegraphics[width=0.7\textwidth]{./Figures/iono_ucar.png}
-				\caption {\textit{Source : UCAR}}	
+				\caption {Régions de l'ionosphère \cite{ucar}}	
 			\end{figure}
 		\end{column}	
 	\end{columns}
@@ -155,8 +193,8 @@
 			\begin{column}{0.5\textwidth}
 				\begin{figure}
 					\centering
-					\includegraphics[width=1\textwidth]{./Figures/iono_e3a.png}
-					\caption {\textit{Source : Sujet E3A}}	
+					\includegraphics[width=0.7\textwidth]{./Figures/iono_e3a.png}
+					\caption {Propagation directe et diffusée \cite{e3a}}	
 				\end{figure}
 			\end{column}
 	\end{columns}
@@ -197,18 +235,20 @@
 \end{frame}
 
 \begin{frame}
-	\cite{knuthwebsite}
+	\centering
+	\begin{block}
+		\scshape
+			\begin{center}
+				\Huge\emph{Des Questions ?}
+			\end{center}
+	\end{block}
+\end{frame}
+
+\appendix
+\begin{frame}
+	\frametitle{Bibliographie}
 	\printbibliography
 \end{frame}
 %--------- THANK YOU Text ------- texlive-most -------------------
-\begin{frame}
-		\centering
-		\begin{block}
-			\scshape
-				\begin{center}
-					\Huge\emph{Des Questions ?}
-				\end{center}
-		\end{block}
-\end{frame}
 %----------------------------------------------------
 \end{document}
