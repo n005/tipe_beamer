@@ -1,0 +1,9 @@
+[4] Config.pm:307> INFO - This is Biber 2.17
+[4] Config.pm:310> INFO - Logfile is 'tipe.blg'
+[264] biber:340> INFO - === mer. avril  5, 2023, 16:11:10
+[316] Biber.pm:418> INFO - Reading 'tipe.bcf'
+[519] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
+[556] bbl.pm:654> INFO - Writing 'tipe.bbl' with encoding 'UTF-8'
+[557] bbl.pm:757> INFO - Output to tipe.bbl
+[558] Biber.pm:130> WARN - The file 'tipe.bcf' does not contain any citations!
+[558] Biber.pm:132> INFO - WARNINGS: 1
