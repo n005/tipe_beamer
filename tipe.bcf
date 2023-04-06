@@ -2350,15 +2350,17 @@
     <bcf:citekey order="4">cons</bcf:citekey>
     <bcf:citekey order="5">ens</bcf:citekey>
     <bcf:citekey order="6">ens</bcf:citekey>
-    <bcf:citekey order="7">ucar</bcf:citekey>
-    <bcf:citekey order="8">ucar</bcf:citekey>
-    <bcf:citekey order="9">e3a</bcf:citekey>
-    <bcf:citekey order="10">e3a</bcf:citekey>
-    <bcf:citekey order="11">marketreport</bcf:citekey>
-    <bcf:citekey order="12">cons</bcf:citekey>
-    <bcf:citekey order="13">ens</bcf:citekey>
-    <bcf:citekey order="14">ucar</bcf:citekey>
-    <bcf:citekey order="15">e3a</bcf:citekey>
+    <bcf:citekey order="7">ens</bcf:citekey>
+    <bcf:citekey order="8">ens</bcf:citekey>
+    <bcf:citekey order="9">ucar</bcf:citekey>
+    <bcf:citekey order="10">ucar</bcf:citekey>
+    <bcf:citekey order="11">e3a</bcf:citekey>
+    <bcf:citekey order="12">e3a</bcf:citekey>
+    <bcf:citekey order="13">marketreport</bcf:citekey>
+    <bcf:citekey order="14">cons</bcf:citekey>
+    <bcf:citekey order="15">ens</bcf:citekey>
+    <bcf:citekey order="16">ucar</bcf:citekey>
+    <bcf:citekey order="17">e3a</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
