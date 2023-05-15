@@ -69,6 +69,28 @@
       \verb https://gssc.esa.int/navipedia/index.php/GNSS_Market_Report#Report_Overview
       \endverb
     \endentry
+    \entry{ionoprofil}{article}{}
+      \name{author}{1}{}{%
+        {{hash=203194d7e4d7b2c0366eee105e2f75fa}{%
+           family={Gillies},
+           familyi={G\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{203194d7e4d7b2c0366eee105e2f75fa}
+      \strng{fullhash}{203194d7e4d7b2c0366eee105e2f75fa}
+      \strng{bibnamehash}{203194d7e4d7b2c0366eee105e2f75fa}
+      \strng{authorbibnamehash}{203194d7e4d7b2c0366eee105e2f75fa}
+      \strng{authornamehash}{203194d7e4d7b2c0366eee105e2f75fa}
+      \strng{authorfullhash}{203194d7e4d7b2c0366eee105e2f75fa}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{01}
+      \field{title}{Modelling of transionospheric HF radio wave propagation for the ISIS II and ePOP satellites}
+      \field{year}{2006}
+    \endentry
     \entry{cons}{online}{}
       \name{author}{1}{}{%
         {{hash=96a68ae615f582c8eccd9a641f599852}{%

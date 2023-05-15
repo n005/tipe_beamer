@@ -1790,6 +1790,11 @@ INPUT ./Figures/iono_e3a.png
 INPUT ./Figures/iono_e3a.png
 INPUT ./Figures/iono_e3a.png
 INPUT ./Figures/iono_e3a.png
+INPUT ./Figures/iono_profil.png
+INPUT ./Figures/iono_profil.png
+INPUT ./Figures/iono_profil.png
+INPUT ./Figures/iono_profil.png
+INPUT ./Figures/iono_profil.png
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmss17.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmssi17.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
@@ -1807,6 +1812,7 @@ INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb
@@ -1819,5 +1825,7 @@ INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi17.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb
