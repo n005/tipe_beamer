@@ -2352,18 +2352,23 @@
     <bcf:citekey order="6">ens</bcf:citekey>
     <bcf:citekey order="7">ens</bcf:citekey>
     <bcf:citekey order="8">ens</bcf:citekey>
-    <bcf:citekey order="9">ucar</bcf:citekey>
-    <bcf:citekey order="10">ucar</bcf:citekey>
-    <bcf:citekey order="11">e3a</bcf:citekey>
-    <bcf:citekey order="12">e3a</bcf:citekey>
-    <bcf:citekey order="13">ionoprofil</bcf:citekey>
-    <bcf:citekey order="14">ionoprofil</bcf:citekey>
-    <bcf:citekey order="15">marketreport</bcf:citekey>
-    <bcf:citekey order="16">cons</bcf:citekey>
-    <bcf:citekey order="17">ens</bcf:citekey>
-    <bcf:citekey order="18">ucar</bcf:citekey>
-    <bcf:citekey order="19">e3a</bcf:citekey>
-    <bcf:citekey order="20">ionoprofil</bcf:citekey>
+    <bcf:citekey order="9">esa</bcf:citekey>
+    <bcf:citekey order="10">esa</bcf:citekey>
+    <bcf:citekey order="11">esa</bcf:citekey>
+    <bcf:citekey order="12">esa</bcf:citekey>
+    <bcf:citekey order="13">ucar</bcf:citekey>
+    <bcf:citekey order="14">ucar</bcf:citekey>
+    <bcf:citekey order="15">e3a</bcf:citekey>
+    <bcf:citekey order="16">e3a</bcf:citekey>
+    <bcf:citekey order="17">ionoprofil</bcf:citekey>
+    <bcf:citekey order="18">ionoprofil</bcf:citekey>
+    <bcf:citekey order="19">marketreport</bcf:citekey>
+    <bcf:citekey order="20">cons</bcf:citekey>
+    <bcf:citekey order="21">ens</bcf:citekey>
+    <bcf:citekey order="22">esa</bcf:citekey>
+    <bcf:citekey order="23">ucar</bcf:citekey>
+    <bcf:citekey order="24">e3a</bcf:citekey>
+    <bcf:citekey order="25">ionoprofil</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

@@ -45,6 +45,31 @@
       \verb https://www.geologie.ens.fr/~ecalais/teaching/geopositionnement-gnss
       \endverb
     \endentry
+    \entry{esa}{online}{}
+      \name{author}{1}{}{%
+        {{hash=afafc7a086f96baed3f76650e4fcdc5d}{%
+           family={ESA},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{afafc7a086f96baed3f76650e4fcdc5d}
+      \strng{fullhash}{afafc7a086f96baed3f76650e4fcdc5d}
+      \strng{bibnamehash}{afafc7a086f96baed3f76650e4fcdc5d}
+      \strng{authorbibnamehash}{afafc7a086f96baed3f76650e4fcdc5d}
+      \strng{authornamehash}{afafc7a086f96baed3f76650e4fcdc5d}
+      \strng{authorfullhash}{afafc7a086f96baed3f76650e4fcdc5d}
+      \field{extraname}{1}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ESA GNSS Navipedia}
+      \verb{urlraw}
+      \verb https://gssc.esa.int
+      \endverb
+      \verb{url}
+      \verb https://gssc.esa.int
+      \endverb
+    \endentry
     \entry{marketreport}{online}{}
       \name{author}{1}{}{%
         {{hash=afafc7a086f96baed3f76650e4fcdc5d}{%
@@ -57,6 +82,7 @@
       \strng{authorbibnamehash}{afafc7a086f96baed3f76650e4fcdc5d}
       \strng{authornamehash}{afafc7a086f96baed3f76650e4fcdc5d}
       \strng{authorfullhash}{afafc7a086f96baed3f76650e4fcdc5d}
+      \field{extraname}{2}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{labelnamesource}{author}

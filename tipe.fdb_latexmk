@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber tipe"] 1684164886 "tipe.bcf" "tipe.bbl" "tipe" 1684179806
-  "References.bib" 1684163613 1170 faa64c7f1122b440bd498b1fb1a0769d ""
-  "tipe.bcf" 1684179806 107949 b6ce4b6a1b2d20596ace192235cd54d4 "pdflatex"
+["biber tipe"] 1684238045 "tipe.bcf" "tipe.bbl" "tipe" 1684238320
+  "References.bib" 1684238040 1275 18cb126942cdf817ba41532141d9896f ""
+  "tipe.bcf" 1684238319 108179 590f28a5e9c740cbad77751fde102208 "pdflatex"
   (generated)
   "tipe.bbl"
   "tipe.blg"
-["pdflatex"] 1684179802 "/home/n005/PT/TIPE_beamer/tipe.tex" "tipe.pdf" "tipe" 1684179806
-  "/home/n005/PT/TIPE_beamer/tipe.tex" 1684179798 9711 bc8f9eb4afb6152a0eb0f297861712f5 ""
+["pdflatex"] 1684238315 "/home/n005/PT/TIPE_beamer/tipe.tex" "tipe.pdf" "tipe" 1684238320
+  "/home/n005/PT/TIPE_beamer/tipe.tex" 1684238315 10833 46ded4051843fef55d4b1eaa2cf3885d ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1650183167 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1650183167 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1650183167 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
@@ -308,18 +308,20 @@
   "Figures/ENS_gnss.png" 1680714668 48032 dbd570d4a967de67b99276df0beb32f6 ""
   "Figures/ENS_gnss2.png" 1680724147 196321 be45bf29237e43e2623149baf8d7f0cb ""
   "Figures/constellation.jpg" 1680714178 342876 4f49a06d21d4bb9df060c3bdc922ab4e ""
+  "Figures/dilution.png" 1684238000 17773 250decf7d7c3eb789d6c54689ce04590 ""
   "Figures/iono_e3a.png" 1680713097 26116 54c520a63df5dcb6a2403be66758929c ""
   "Figures/iono_profil.png" 1684163526 31546 e1cb7b41ee65dc64f99535a6f4ff610b ""
   "Figures/iono_ucar.png" 1680707157 437013 440377247414fa2cf24e3058bd668d9b ""
   "Figures/logo Paul Constans.jpg" 1679936710 44189 9290eb05a65d17ba98a0c6e4e3860237 ""
+  "Figures/multipath.png" 1684237479 357690 f7046fb21da6b902a159482d1603af88 ""
   "Figures/stats.png" 1680009817 17349 c8ad7b8ef6f6e8aa2ab28c95e3968b35 ""
-  "tipe.aux" 1684179806 6827 af4cfb52f68a5f558ff0035f37c454a9 "pdflatex"
-  "tipe.bbl" 1684164887 6838 0947c8cbbe20203353108b4f4daa690f "biber tipe"
-  "tipe.nav" 1684179806 3155 509ab74002ce56e3b81116bde3fa7ea9 "pdflatex"
-  "tipe.out" 1684179806 871 e84d598861c66ce48076e5736bf2a4bc "pdflatex"
-  "tipe.run.xml" 1684179806 2304 10cab2975671ed551025cd8ea85065e8 "pdflatex"
-  "tipe.tex" 1684179798 9711 bc8f9eb4afb6152a0eb0f297861712f5 ""
-  "tipe.toc" 1684179806 330 96b17388e67c8fe4f49bb99c850be3b0 "pdflatex"
+  "tipe.aux" 1684238319 7619 b8c37b0462ea5ecca962aaabd9591abf "pdflatex"
+  "tipe.bbl" 1684238046 7785 58f9fc6b79d663cdc205bec839f7b6d8 "biber tipe"
+  "tipe.nav" 1684238319 3502 1a7216c9a4490e21349a3a8c48e78e7a "pdflatex"
+  "tipe.out" 1684238319 982 31db810617f861d698142408edb3d4e3 "pdflatex"
+  "tipe.run.xml" 1684238319 2304 10cab2975671ed551025cd8ea85065e8 "pdflatex"
+  "tipe.tex" 1684238315 10833 46ded4051843fef55d4b1eaa2cf3885d ""
+  "tipe.toc" 1684238319 381 fd358816045c91c218cb5b575bcfe477 "pdflatex"
   (generated)
   "tipe.aux"
   "tipe.bcf"
