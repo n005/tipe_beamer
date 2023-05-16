@@ -2362,13 +2362,15 @@
     <bcf:citekey order="16">e3a</bcf:citekey>
     <bcf:citekey order="17">ionoprofil</bcf:citekey>
     <bcf:citekey order="18">ionoprofil</bcf:citekey>
-    <bcf:citekey order="19">marketreport</bcf:citekey>
-    <bcf:citekey order="20">cons</bcf:citekey>
-    <bcf:citekey order="21">ens</bcf:citekey>
-    <bcf:citekey order="22">esa</bcf:citekey>
-    <bcf:citekey order="23">ucar</bcf:citekey>
-    <bcf:citekey order="24">e3a</bcf:citekey>
-    <bcf:citekey order="25">ionoprofil</bcf:citekey>
+    <bcf:citekey order="19">esa</bcf:citekey>
+    <bcf:citekey order="20">esa</bcf:citekey>
+    <bcf:citekey order="21">marketreport</bcf:citekey>
+    <bcf:citekey order="22">cons</bcf:citekey>
+    <bcf:citekey order="23">ens</bcf:citekey>
+    <bcf:citekey order="24">esa</bcf:citekey>
+    <bcf:citekey order="25">ucar</bcf:citekey>
+    <bcf:citekey order="26">e3a</bcf:citekey>
+    <bcf:citekey order="27">ionoprofil</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

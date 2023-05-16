@@ -17,10 +17,12 @@
 
 %-------- color --------
 \definecolor{crimsonred}{RGB}{153,0,0} % Official RGB code for Crimson Red
+\definecolor{crimsonred2}{RGB}{120,10,10}
 \usecolortheme[named=crimsonred]{structure}
 %-------- set color of 'example block' to crimson theme --------
 \setbeamercolor{block body example}{bg=white}
 \setbeamercolor{block title example}{fg=white, bg=red!50!black}
+\setbeamercolor{section in head/foot}{bg=crimsonred2,fg=white}
 
 %-------- font --------
 \setbeamerfont{structure}{family=\rmfamily,series=\bfseries}
@@ -29,6 +31,7 @@
 
 %-------- misc structure --------
 \useoutertheme[footline=authortitle,subsection=false]{miniframes}
+\setbeamerfont{footline}{size=\fontsize{8}{11}\selectfont}
 \useinnertheme{rounded}
 \addtobeamertemplate{block begin}{}{\justifying}
 \newtheorem{remark}[theorem]{Remark}
@@ -89,7 +92,6 @@
 \begin{document}
 	
 \begin{frame}{\titlepage}\end{frame}
-\begin{frame}{\frametitle{Sommaire}\tableofcontents}\end{frame}
 %--------- Sujet et Domaine ----------------------
 \section{Introduction}
 \begin{frame}
@@ -195,6 +197,8 @@
 	\end{columns}
 \end{frame}
 
+\begin{frame}{\frametitle{Sommaire}\tableofcontents}\end{frame}
+
 \section{Problématique}
 \begin{frame}
 	\centering
@@ -279,6 +283,15 @@
 
 %----------- MAIN RESULTS ------------------------------
 \section{Expérimentations Ionosphérique}
+\begin{frame}
+	\centering
+	\begin{block}
+		\scshape
+		\begin{center}
+			\Huge Expérimentations Ionosphérique
+		\end{center}
+	\end{block}
+\end{frame}
 \begin{frame}{Préambule}
         \textbf{Méthode d'évaluation:} 
 		Le CET \textit{Total electron content} s'évalue grâce à un même signal sur deux fréquences.
@@ -293,7 +306,66 @@
 		\end{flushright}
 \end{frame}
 
-\begin{frame}{Protocole expérimentale}
+\begin{frame}{Protocole expérimental}
+	RTKlib avec et sans correction ionosphérique.
+	Calcul du TEC à partir de la phase et de la speudorange.
+\end{frame}
+
+\begin{frame}{Résultats}
+	\begin{figure}
+		\centering
+		%\includegraphics[width=0.7\textwidth]{./Figures/tec.png}
+		\caption {TEC en fonction du temps}	
+	\end{figure}
+\end{frame}
+
+\section{Multipath}
+\begin{frame}{Multipath}
+	\begin{columns}
+		\begin{column}{0.5\textwidth}
+			\textbf{Multipath :} 
+			Le multipath est un phénomène de propagation d'onde radio qui se propage sur plusieurs trajets entre l'émetteur et le récepteur.
+			\newline
+			Le multipath s'estime par: $MP = P - (\frac{2}{\alpha - 1} + 1) \cdot L_1 + \frac{2}{\alpha - 1} \cdot \L_2$
+			\begin{flushright}
+				\tiny{(Voir Démonstration Annexe 4)}
+			\end{flushright}
+			{\small \textbf{avec} $P$ la phase, $L_1$ la speudorange, $L_2$ la speudorange sur la deuxième fréquence et $\alpha$ le coefficient de réflexion.}
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.9\textwidth]{./Figures/multipath2.png}
+				\caption {Multipath \cite{esa}}	
+			\end{figure}
+		\end{column}	
+	\end{columns}
+\end{frame}
+
+\section{Expérimentations Multipath}
+\begin{frame}
+	\centering
+	\begin{block}
+		\scshape
+		\begin{center}
+			\Huge Expérimentations Multipath
+		\end{center}
+	\end{block}
+\end{frame}
+
+\begin{frame}{Protocole expérimental}
+	\begin{itemize}
+		\item RTKlib avec et sans correction ionosphérique.
+		\item Calcul du multipath à partir de la phase et de la speudorange.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Résultats}
+	\begin{figure}
+		\centering
+		%\includegraphics[width=0.7\textwidth]{./Figures/multipath.png}
+		\caption {Multipath en fonction du temps}	
+	\end{figure}
 \end{frame}
 
 \begin{frame}
@@ -323,9 +395,14 @@
 	\frametitle{Démonstration TEC}
 \end{frame}
 
-\section{Annexe 2}
+\section{Annexe 3}
 \begin{frame}
 	\frametitle{Le signal GPS}
+\end{frame}
+
+\section{Annexe 4}
+\begin{frame}
+	\frametitle{Démonstration Multipath}
 \end{frame}
 %--------- THANK YOU Text ------- texlive-most -------------------
 %----------------------------------------------------

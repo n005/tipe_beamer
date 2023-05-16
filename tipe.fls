@@ -1651,11 +1651,11 @@ INPUT tipe.nav
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmssi8.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
 INPUT ./Figures/logo Paul Constans.jpg
 INPUT ./Figures/logo Paul Constans.jpg
 INPUT ./Figures/logo Paul Constans.jpg
@@ -1666,11 +1666,6 @@ INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
-INPUT ./tipe.toc
-INPUT tipe.toc
-INPUT tipe.toc
-INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmssi10.tfm
 INPUT ./Figures/stats.png
 INPUT ./Figures/stats.png
@@ -1727,6 +1722,8 @@ INPUT /usr/share/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 INPUT /usr/share/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi8.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi8.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib8.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib6.tfm
@@ -1790,6 +1787,9 @@ INPUT ./Figures/dilution.png
 INPUT ./Figures/dilution.png
 INPUT ./Figures/dilution.png
 INPUT ./Figures/dilution.png
+INPUT ./tipe.toc
+INPUT tipe.toc
+INPUT tipe.toc
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmss17.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmssi17.tfm
 INPUT ./Figures/iono_ucar.png
@@ -1807,6 +1807,11 @@ INPUT ./Figures/iono_profil.png
 INPUT ./Figures/iono_profil.png
 INPUT ./Figures/iono_profil.png
 INPUT ./Figures/iono_profil.png
+INPUT ./Figures/multipath2.png
+INPUT ./Figures/multipath2.png
+INPUT ./Figures/multipath2.png
+INPUT ./Figures/multipath2.png
+INPUT ./Figures/multipath2.png
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 OUTPUT tipe.nav
@@ -1825,8 +1830,10 @@ INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb
