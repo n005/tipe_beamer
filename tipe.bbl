@@ -162,6 +162,80 @@
       \field{title}{Épreuve de Physique}
       \field{year}{2020}
     \endentry
+    \entry{mi8}{article}{}
+      \name{author}{3}{}{%
+        {{hash=f99fce1d12ea6ea08115198e8bd2f093}{%
+           family={Robustelli},
+           familyi={R\bibinitperiod},
+           given={Umberto},
+           giveni={U\bibinitperiod}}}%
+        {{hash=3da5c28a0908be91f6fb5d236bf29904}{%
+           family={Baiocchi},
+           familyi={B\bibinitperiod},
+           given={Valerio},
+           giveni={V\bibinitperiod}}}%
+        {{hash=b725805e8346863df6edc7fe8e5c890d}{%
+           family={Pugliano},
+           familyi={P\bibinitperiod},
+           given={Giovanni},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{68b705d9357cbea29975c227369525e8}
+      \strng{fullhash}{68b705d9357cbea29975c227369525e8}
+      \strng{bibnamehash}{68b705d9357cbea29975c227369525e8}
+      \strng{authorbibnamehash}{68b705d9357cbea29975c227369525e8}
+      \strng{authornamehash}{68b705d9357cbea29975c227369525e8}
+      \strng{authorfullhash}{68b705d9357cbea29975c227369525e8}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Electronics}
+      \field{month}{01}
+      \field{title}{Assessment of Dual Frequency GNSS Observations from a Xiaomi Mi 8 Android Smartphone and Positioning Performance Analysis}
+      \field{volume}{8}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.3390/electronics8010091
+      \endverb
+    \endentry
+    \entry{mperr}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=3fe410c582d55f0b694ed4818bcd9c00}{%
+           family={Serrano},
+           familyi={S\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod}}}%
+        {{hash=ac2a9091dd12cc09d5bb0ad7e70a8c17}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Don},
+           giveni={D\bibinitperiod}}}%
+        {{hash=f017e75b126d881cd4840c19d0b57899}{%
+           family={Langley},
+           familyi={L\bibinitperiod},
+           given={Richard\bibnamedelima B.},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{1985b887a4f1a203ab177a4d3f0d54f1}
+      \strng{fullhash}{1985b887a4f1a203ab177a4d3f0d54f1}
+      \strng{bibnamehash}{1985b887a4f1a203ab177a4d3f0d54f1}
+      \strng{authorbibnamehash}{1985b887a4f1a203ab177a4d3f0d54f1}
+      \strng{authornamehash}{1985b887a4f1a203ab177a4d3f0d54f1}
+      \strng{authorfullhash}{1985b887a4f1a203ab177a4d3f0d54f1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2008 IEEE/ION Position, Location and Navigation Symposium}
+      \field{title}{Carrier-phase multipath calibration in GPS-RTK machine-guidance applications}
+      \field{year}{2008}
+      \field{pages}{479\bibrangedash 488}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/PLANS.2008.4570023
+      \endverb
+    \endentry
     \entry{ucar}{online}{}
       \name{author}{1}{}{%
         {{hash=f35c967082c7802b22e5c4d178cb3b95}{%
@@ -186,6 +260,60 @@
       \endverb
       \verb{url}
       \verb https://scied.ucar.edu/learning-zone/atmosphere/ionosphere
+      \endverb
+    \endentry
+    \entry{10.3389/fphy.2022.1071539}{article}{}
+      \name{author}{5}{}{%
+        {{hash=2cdffa9daf47416ec94ed848e3224b14}{%
+           family={Xue},
+           familyi={X\bibinitperiod},
+           given={Zhihao},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=15b8c7fb804bb6748316e085c3c4f45f}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Zukun},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=b24694231c59e6d8166fc280345fc5ce}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Zhibin},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=f47cc1ff1ed8ea8025326fb247ba534f}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Jie},
+           giveni={J\bibinitperiod}}}%
+        {{hash=406c0a881340be1133beb8f52f3e23e9}{%
+           family={Ni},
+           familyi={N\bibinitperiod},
+           given={Shaojie},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{bd81ded87e08d3770c38ad91e312dc6a}
+      \strng{fullhash}{6170caad4df0a8755f5eb5a89a5e29e6}
+      \strng{bibnamehash}{bd81ded87e08d3770c38ad91e312dc6a}
+      \strng{authorbibnamehash}{bd81ded87e08d3770c38ad91e312dc6a}
+      \strng{authornamehash}{bd81ded87e08d3770c38ad91e312dc6a}
+      \strng{authorfullhash}{6170caad4df0a8755f5eb5a89a5e29e6}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The global navigation satellite system is a high-precision radio navigation system based on artificial satellites. Among the factors affecting the positioning accuracy of the navigation satellite system, the multipath signal is the most significant and challenging to eliminate. Furthermore, the multipath environment of the receiver is also becoming more complex, and it seriously threatens the measurement accuracy and stability of the receiver. The multipath mitigation technology is also continuously improved and developed in practical application. This paper firstly introduces the concept and characteristics of multipath signals, and summarizes the influence of multipath signals on navigation satellite systems from two aspects of code tracking loop and carrier tracking loop. Furthermore, the existing multipath mitigation technology is summarized in four stages: signal system design, antenna design, baseband signal processing, and navigation data processing. Finally, according to the summary of the existing technology and the new demand, the future development direction of multipath suppression technology is prospected.}
+      \field{issn}{2296-424X}
+      \field{journaltitle}{Frontiers in Physics}
+      \field{title}{Overview of multipath mitigation technology in global navigation satellite system}
+      \field{volume}{10}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.3389/fphy.2022.1071539
+      \endverb
+      \verb{urlraw}
+      \verb https://www.frontiersin.org/articles/10.3389/fphy.2022.1071539
+      \endverb
+      \verb{url}
+      \verb https://www.frontiersin.org/articles/10.3389/fphy.2022.1071539
       \endverb
     \endentry
   \enddatalist

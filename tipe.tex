@@ -65,6 +65,20 @@
 \addbibresource{References.bib}
 \setbeamertemplate{frametitle continuation}{\frametitle{\color{white}Bibliographie}}
 
+\makeatletter
+\let\beamer@writeslidentry@miniframeson=\beamer@writeslidentry
+\def\beamer@writeslidentry@miniframesoff{%
+  \expandafter\beamer@ifempty\expandafter{\beamer@framestartpage}{}% does not happen normally
+  {%else
+    % removed \addtocontents commands
+    \clearpage\beamer@notesactions%
+  }
+}
+\newcommand*{\miniframeson}{\let\beamer@writeslidentry=\beamer@writeslidentry@miniframeson}
+\newcommand*{\miniframesoff}{\let\beamer@writeslidentry=\beamer@writeslidentry@miniframesoff}
+\makeatother
+
+
 %-------- WMSU Backgound -------------------
 %\usebackgroundtemplate{%
 %	\tikz[overlay,remember picture] \node[opacity=0.02, at=(current page.center)] {
@@ -165,7 +179,7 @@
 	\frametitle{Précision des orbites}
 	\justifying
 	Les systèmes GNSS sont basés sur des orbites prédites émises par les satellites. \\
-	Ces \textbf{éphémérides} doivent donc être très précises. {\tiny(Perturbation gravitationnelle (cf. Annexe), radiation solaire ...)} \\
+	Ces \textbf{éphémérides} doivent donc être très précises. {\small(Perturbation gravitationnelle (cf. Annexe 1))} \\
 	\begin{figure}
 		\centering
 		\includegraphics[width=0.35\textwidth]{./Figures/ENS_gnss2.png} \\
@@ -201,8 +215,8 @@
 
 \begin{frame}{\frametitle{Sommaire}\tableofcontents}\end{frame}
 
-\section{Problématique}
 \begin{frame}
+	\frametitle{Problématique}
 	\centering
 	\begin{block}
 		\scshape
@@ -211,6 +225,20 @@
 				précision de la géolocalisation par satellite ?}
 			\end{center}
 	\end{block}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Objectifs}
+	\justifying
+	\begin{enumerate}
+		
+		\item Étude du GPS, fonctionnement rapide
+		\item Impact de l'ionosphère et des corrections possibles
+		\item Étude du multipath, dilution géométrique, GPS à doubles fréquences, et C/N0
+		\item Comparaison Ville / campagne de la précision.
+		\item Ouverture, solution possible (SBAS (systèmes d'optimisation de la précision par satellite), DGNSS (GNSS Différentiel), etc.)
+	
+	\end{enumerate}
 \end{frame}
 %---------- DEFINITION/PRELIMINARY ---------------------
 \section{L'ionosphère}
@@ -276,12 +304,35 @@
 					\textbf{A un TEC de }$1.5\cdot 10^{17} m^{-2}$, \boxed{$L = 220m$}
 				\end{center}
 
+				On a besoin de la \textbf{phase} et de la \textbf{speudorange} sur deux fréquences.
 				\begin{flushright}
 					\tiny{(Voir Annexe 2)}
 				\end{flushright}
 			\end{column}
 		\end{columns}
 \end{frame}
+
+\begin{frame}{GPS à doubles fréquences}
+	\justifying
+	\textbf{Afin de calculer le TEC, un récepteur Dual-Band (L1, L5) est nécessaire :}
+	\newline
+	\begin{columns}
+		\begin{column}{0.5\textwidth}
+			\begin{figure}
+				\includegraphics[width=0.9\textwidth]{./Figures/dual_band.jpg}
+				\caption{\textit{Image: Garmin}}
+			\end{figure}
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			Désormais disponible dans les smartphones(depuis 2018):
+			\begin{figure}
+				\includegraphics[width=0.7\textwidth]{./Figures/BCM47755.jpg}
+				\caption{Broadcom BCM47755, \textit{Broadcom Inc.}}
+			\end{figure}
+		\end{column}
+	\end{columns}
+\end{frame}
+
 
 %----------- MAIN RESULTS ------------------------------
 \section{Expérimentations Ionosphérique}
@@ -328,7 +379,7 @@
 			\textbf{Multipath :} 
 			Le multipath est un phénomène de propagation d'onde radio qui se propage sur plusieurs trajets entre l'émetteur et le récepteur.
 			\newline
-			Le multipath s'estime par: $MP = P - (\frac{2}{\alpha - 1} + 1) \cdot L_1 + \frac{2}{\alpha - 1} \cdot \L_2$
+			Le multipath s'estime par : $MP = P - (\frac{2}{\alpha - 1} + 1) \cdot L_1 + \frac{2}{\alpha - 1} \cdot \L_2$
 			\begin{flushright}
 				\tiny{(Voir Démonstration Annexe 4)}
 			\end{flushright}
@@ -340,8 +391,35 @@
 				\includegraphics[width=0.9\textwidth]{./Figures/multipath2.png}
 				\caption {Multipath \cite{esa}}	
 			\end{figure}
+			On a donc besoin de la \textbf{phase} et de la \textbf{speudorange} sur deux fréquences.
 		\end{column}	
 	\end{columns}
+\end{frame}
+
+\begin{frame}{Quelle erreur ?}
+\begin{columns}
+	\begin{column}{0.5\textwidth}
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.8\textwidth]{./Figures/mp.jpg}
+			\caption {Description du multipath \cite{10.3389/fphy.2022.1071539}}
+		\end{figure}
+		L'erreur est de \textbf{plusieurs mètres.} \cite{mperr}
+	\end{column}
+	\begin{column}{0.5\textwidth}
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.7\textwidth]{./Figures/correl.jpg}
+			\caption {Impact sur la fonction de corrélation {\tiny (\textit{Annexe 3})}}
+		\end{figure}
+
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.7\textwidth]{./Figures/phase.jpg}
+			\caption {Impact sur la phase}
+		\end{figure}
+	\end{column}
+\end{columns}	
 \end{frame}
 
 \section{Expérimentations Multipath}
@@ -357,8 +435,8 @@
 
 \begin{frame}{Protocole expérimental}
 	\begin{itemize}
-		\item RTKlib avec et sans correction ionosphérique.
 		\item Calcul du multipath à partir de la phase et de la speudorange.
+		\item Basé sur un article de Umberto et al. \cite{mi8}
 	\end{itemize}
 \end{frame}
 
@@ -369,7 +447,7 @@
 		\caption {Multipath en fonction du temps}	
 	\end{figure}
 \end{frame}
-
+\miniframesoff
 \begin{frame}
 	\centering
 	\begin{block}
@@ -380,6 +458,7 @@
 	\end{block}
 \end{frame}
 
+\miniframeson
 \appendix
 \begin{frame}[allowframebreaks]
 	\frametitle{Bibliographie}
@@ -409,10 +488,11 @@
 			\textbf{Vitesse de phase :} $v_{\phi} = \frac{\omega}{k} = \frac{c}{\sqrt{1 - \frac{{f_p}^2}{f^2}}}$ \\
 			
 			}
-			section		\end{column}
+			\end{column}
 
 		\begin{column}{0.5\textwidth}
 			\begin{flushright}
+				L'indice est inférieur à 1, ... \\
 				{\tiny \textit{D'après sujet E3A, \cite{e3a}}}
 			\end{flushright}
 		\end{column}
@@ -423,6 +503,24 @@
 \begin{frame}
 	\label{appendix:3}
 	\frametitle{Le signal GPS}
+	\begin{columns}
+		\begin{column}{0.5\textwidth}
+			Les récepteurs génèrent les fréquences porteuses L1 et L5 et compare avec celui reçu :
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.8\textwidth]{./Figures/correl1.png}
+				\caption {Décodage \cite{ens}}
+			\end{figure}
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			Détermine le pic de corrélation (code GOLD) et en déduit le décalage temporel.
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.8\textwidth]{./Figures/correl2.png}
+				\caption {Fonction de corrélation \cite{ens}}
+			\end{figure}
+		\end{column}
+	\end{columns}
 \end{frame}
 
 \section{Annexe 4}

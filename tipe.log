@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.3.27)  18 MAY 2023 19:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.3.27)  18 MAY 2023 22:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1025,24 +1025,24 @@ Package csquotes Info: Redefining alias 'default' -> 'french'.
  (./tipe.aux)
 \openout1 = `tipe.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1097,7 +1097,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 92.
+Package hyperref Info: Link coloring OFF on input line 106.
  (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
@@ -1107,62 +1107,62 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count504
 )
-LaTeX Info: Redefining \ref on input line 92.
-LaTeX Info: Redefining \pageref on input line 92.
-LaTeX Info: Redefining \nameref on input line 92.
+LaTeX Info: Redefining \ref on input line 106.
+LaTeX Info: Redefining \pageref on input line 106.
+LaTeX Info: Redefining \nameref on input line 106.
  (./tipe.out) (./tipe.out)
 \@outlinefile=\write7
 \openout7 = `tipe.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 92.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 106.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 92.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 106.
 \symnumbers=\mathgroup12
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 92.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 106.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/mathkerncmss/m/sl --> OT1/cmss/m/it on input line 92.
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/cmss/m/it on input line 106.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/mathkerncmss/bx/sl --> OT1/cmss/m/it on input line 92.
+(Font)                  OT1/mathkerncmss/bx/sl --> OT1/cmss/m/it on input line 106.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 92.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 92.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 92.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 106.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 106.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 106.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 92.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 106.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 92.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 92.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 106.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 106.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 92.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 106.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 92.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 92.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 106.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 106.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 92.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 106.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 92.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 106.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 92.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 106.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 92.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 106.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 92.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 106.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 92.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 106.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 92.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 106.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 92.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 106.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 92.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 92.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 106.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 106.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 92.
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 106.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 92.
+(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 106.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on input line 92.
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on input line 106.
  (/usr/share/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (/usr/share/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
@@ -1181,13 +1181,13 @@ Package caption Info: french babel package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \degres on input line 92.
-LaTeX Info: Redefining \up on input line 92.
+LaTeX Info: Redefining \degres on input line 106.
+LaTeX Info: Redefining \up on input line 106.
 
 
 Package french.ldf Warning: OT1 encoding should not be used for French.
 (french.ldf)                Add \usepackage[T1]{fontenc} to the preamble
-(french.ldf)                of your document; reported on input line 92.
+(french.ldf)                of your document; reported on input line 106.
 
 Package biblatex Info: Trying to load language 'french'...
 Package biblatex Info: ... file 'french.lbx' found.
@@ -1202,51 +1202,51 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'tipe.bbl' found.
  (./tipe.bbl)
-Package biblatex Info: Reference section=0 on input line 92.
-Package biblatex Info: Reference segment=0 on input line 92.
+Package biblatex Info: Reference section=0 on input line 106.
+Package biblatex Info: Reference segment=0 on input line 106.
  (./tipe.nav)
-<./Figures/logo Paul Constans.jpg, id=100, 181.3977pt x 98.769pt>
+<./Figures/logo Paul Constans.jpg, id=97, 181.3977pt x 98.769pt>
 File: ./Figures/logo Paul Constans.jpg Graphic file (type jpg)
 <use ./Figures/logo Paul Constans.jpg>
-Package pdftex.def Info: ./Figures/logo Paul Constans.jpg  used on input line 94.
+Package pdftex.def Info: ./Figures/logo Paul Constans.jpg  used on input line 108.
 (pdftex.def)             Requested size: 72.55779pt x 39.50688pt.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
  <./Figures/logo Paul Constans.jpg>]
-<./Figures/stats.png, id=183, 303.38344pt x 162.6075pt>
+<./Figures/stats.png, id=184, 303.38344pt x 162.6075pt>
 File: ./Figures/stats.png Graphic file (type png)
 <use ./Figures/stats.png>
-Package pdftex.def Info: ./Figures/stats.png  used on input line 106.
+Package pdftex.def Info: ./Figures/stats.png  used on input line 120.
 (pdftex.def)             Requested size: 242.70708pt x 130.08617pt.
  [2
 
  <./Figures/stats.png>]
-<./Figures/constellation.jpg, id=244, 1706.375pt x 1455.4375pt>
+<./Figures/constellation.jpg, id=246, 1706.375pt x 1455.4375pt>
 File: ./Figures/constellation.jpg Graphic file (type jpg)
 <use ./Figures/constellation.jpg>
-Package pdftex.def Info: ./Figures/constellation.jpg  used on input line 117.
+Package pdftex.def Info: ./Figures/constellation.jpg  used on input line 131.
 (pdftex.def)             Requested size: 102.68962pt x 87.56677pt.
  [3
 
  <./Figures/constellation.jpg>]
-<./Figures/ENS_gnss.png, id=301, 481.8pt x 461.725pt>
+<./Figures/ENS_gnss.png, id=304, 481.8pt x 461.725pt>
 File: ./Figures/ENS_gnss.png Graphic file (type png)
 <use ./Figures/ENS_gnss.png>
-Package pdftex.def Info: ./Figures/ENS_gnss.png  used on input line 146.
+Package pdftex.def Info: ./Figures/ENS_gnss.png  used on input line 160.
 (pdftex.def)             Requested size: 154.03183pt x 147.6141pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 146.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 160.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 146.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 160.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 146.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 160.
  (/usr/share/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 146.
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 160.
  (/usr/share/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mathkerncmss.
 ) [4
@@ -1254,23 +1254,23 @@ File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mat
  <./Figures/ENS_gnss.png>] [5
 
 ]
-<./Figures/ENS_gnss2.png, id=426, 431.6125pt x 369.38pt>
+<./Figures/ENS_gnss2.png, id=431, 431.6125pt x 369.38pt>
 File: ./Figures/ENS_gnss2.png Graphic file (type png)
 <use ./Figures/ENS_gnss2.png>
-Package pdftex.def Info: ./Figures/ENS_gnss2.png  used on input line 175.
+Package pdftex.def Info: ./Figures/ENS_gnss2.png  used on input line 189.
 (pdftex.def)             Requested size: 119.80544pt x 102.52953pt.
  [6
 
  <./Figures/ENS_gnss2.png>]
-<./Figures/multipath.png, id=484, 454.69875pt x 544.0325pt>
+<./Figures/multipath.png, id=490, 454.69875pt x 544.0325pt>
 File: ./Figures/multipath.png Graphic file (type png)
 <use ./Figures/multipath.png>
-Package pdftex.def Info: ./Figures/multipath.png  used on input line 200.
+Package pdftex.def Info: ./Figures/multipath.png  used on input line 214.
 (pdftex.def)             Requested size: 85.57382pt x 102.3794pt.
-<./Figures/dilution.png, id=488, 321.2pt x 183.68625pt>
+<./Figures/dilution.png, id=494, 321.2pt x 183.68625pt>
 File: ./Figures/dilution.png Graphic file (type png)
 <use ./Figures/dilution.png>
-Package pdftex.def Info: ./Figures/dilution.png  used on input line 200.
+Package pdftex.def Info: ./Figures/dilution.png  used on input line 214.
 (pdftex.def)             Requested size: 136.91862pt x 78.30244pt.
  [7
 
@@ -1279,82 +1279,141 @@ Package pdftex.def Info: ./Figures/dilution.png  used on input line 200.
 ]
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 214.
+(Font)              using `OT1/cmr/bx/n' instead on input line 228.
 
 [9
 
+] [10
+
 ]
-<./Figures/iono_ucar.png, id=682, 564.1075pt x 761.84625pt>
+<./Figures/iono_ucar.png, id=744, 564.1075pt x 761.84625pt>
 File: ./Figures/iono_ucar.png Graphic file (type png)
 <use ./Figures/iono_ucar.png>
-Package pdftex.def Info: ./Figures/iono_ucar.png  used on input line 234.
+Package pdftex.def Info: ./Figures/iono_ucar.png  used on input line 262.
 (pdftex.def)             Requested size: 119.80283pt x 161.79428pt.
- [10
+ [11
 
  <./Figures/iono_ucar.png>]
-<./Figures/iono_e3a.png, id=740, 369.38pt x 498.86375pt>
+<./Figures/iono_e3a.png, id=804, 369.38pt x 498.86375pt>
 File: ./Figures/iono_e3a.png Graphic file (type png)
 <use ./Figures/iono_e3a.png>
-Package pdftex.def Info: ./Figures/iono_e3a.png  used on input line 254.
+Package pdftex.def Info: ./Figures/iono_e3a.png  used on input line 282.
 (pdftex.def)             Requested size: 119.80283pt x 161.79387pt.
 
-Overfull \vbox (1.47pt too high) detected at line 254
+Overfull \vbox (1.47pt too high) detected at line 282
  []
 
-[11
+[12
 
  <./Figures/iono_e3a.png>]
-<./Figures/iono_profil.png, id=799, 853.1875pt x 608.2725pt>
+<./Figures/iono_profil.png, id=864, 853.1875pt x 608.2725pt>
 File: ./Figures/iono_profil.png Graphic file (type png)
 <use ./Figures/iono_profil.png>
-Package pdftex.def Info: ./Figures/iono_profil.png  used on input line 284.
+Package pdftex.def Info: ./Figures/iono_profil.png  used on input line 313.
 (pdftex.def)             Requested size: 171.14764pt x 122.01431pt.
- [12
+ [13
 
- <./Figures/iono_profil.png>] [13
+ <./Figures/iono_profil.png>]
+Overfull \hbox (12.89517pt too wide) in paragraph at lines 334--334
+[]\OT1/cmss/bx/n/10.95 Afin de cal-cu-ler le TEC, un r^^Secepteur Dual-Band (L1, L5) est n^^Secessaire : 
+ []
 
-] [14
+<./Figures/dual_band.jpg, id=926, 788.9475pt x 602.25pt>
+File: ./Figures/dual_band.jpg Graphic file (type jpg)
+<use ./Figures/dual_band.jpg>
+Package pdftex.def Info: ./Figures/dual_band.jpg  used on input line 334.
+(pdftex.def)             Requested size: 154.03183pt x 117.5807pt.
+<./Figures/BCM47755.jpg, id=927, 241.90375pt x 241.90375pt>
+File: ./Figures/BCM47755.jpg Graphic file (type jpg)
+<use ./Figures/BCM47755.jpg>
+Package pdftex.def Info: ./Figures/BCM47755.jpg  used on input line 334.
+(pdftex.def)             Requested size: 119.80283pt x 119.80362pt.
 
-] [15
+Overfull \vbox (10.62141pt too high) detected at line 334
+ []
+
+[14
+
+ <./Figures/dual_band.jpg> <./Figures/BCM47755.jpg>] [15
 
 ] [16
 
+] [17
+
+] [18
+
 ]
 
-LaTeX Warning: Command \L invalid in math mode on input line 345.
+LaTeX Warning: Command \L invalid in math mode on input line 397.
 
-<./Figures/multipath2.png, id=1088, 903.375pt x 544.0325pt>
+<./Figures/multipath2.png, id=1214, 903.375pt x 544.0325pt>
 File: ./Figures/multipath2.png Graphic file (type png)
 <use ./Figures/multipath2.png>
-Package pdftex.def Info: ./Figures/multipath2.png  used on input line 345.
+Package pdftex.def Info: ./Figures/multipath2.png  used on input line 397.
 (pdftex.def)             Requested size: 154.03183pt x 92.75824pt.
-[17
+[19
 
- <./Figures/multipath2.png>] [18
+ <./Figures/multipath2.png>]
+<./Figures/mp.jpg, id=1274, 513.92pt x 242.9075pt>
+File: ./Figures/mp.jpg Graphic file (type jpg)
+<use ./Figures/mp.jpg>
+Package pdftex.def Info: ./Figures/mp.jpg  used on input line 423.
+(pdftex.def)             Requested size: 136.91862pt x 64.71487pt.
+<./Figures/correl.jpg, id=1278, 694.595pt x 271.0125pt>
+File: ./Figures/correl.jpg Graphic file (type jpg)
+<use ./Figures/correl.jpg>
+Package pdftex.def Info: ./Figures/correl.jpg  used on input line 423.
+(pdftex.def)             Requested size: 119.80283pt x 46.74142pt.
+<./Figures/phase.jpg, id=1279, 506.89375pt x 299.1175pt>
+File: ./Figures/phase.jpg Graphic file (type jpg)
+<use ./Figures/phase.jpg>
+Package pdftex.def Info: ./Figures/phase.jpg  used on input line 423.
+(pdftex.def)             Requested size: 119.80283pt x 70.69426pt.
 
-] [19
+Overfull \vbox (2.11182pt too high) detected at line 423
+ []
 
-] [20
+[20
 
-] [21
+ <./Figures/mp.jpg> <./Figures/correl.jpg> <./Figures/phase.jpg>] [21
+
+] [22
+
+] [23
+
+] [24
 
 ]
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10.95> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 387.
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 466.
 
-[22
-
-] [23
-
-
-] [24
-
-] [25
+[25
 
 ] [26
 
+
 ] [27
+
+
+] [28
+
+] [29
+
+]
+<./Figures/correl1.png, id=1788, 457.71pt x 398.48875pt>
+File: ./Figures/correl1.png Graphic file (type png)
+<use ./Figures/correl1.png>
+Package pdftex.def Info: ./Figures/correl1.png  used on input line 524.
+(pdftex.def)             Requested size: 136.91862pt x 119.20096pt.
+<./Figures/correl2.png, id=1791, 463.7325pt x 257.96375pt>
+File: ./Figures/correl2.png Graphic file (type png)
+<use ./Figures/correl2.png>
+Package pdftex.def Info: ./Figures/correl2.png  used on input line 524.
+(pdftex.def)             Requested size: 136.91862pt x 76.16556pt.
+ [30
+
+ <./Figures/correl1.png> <./Figures/correl2.png>] [31
 
 ]
 \tf@nav=\write8
@@ -1371,19 +1430,19 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10.95> not available
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `tipe.out' has not changed.
-(rerunfilecheck)             Checksum: AADBA5DACD33E3506AE051291F38D15B;1348.
+(rerunfilecheck)             Checksum: 8416B83B99B36F2372B7B6E95C1B4BC7;1235.
 Package logreq Info: Writing requests to 'tipe.run.xml'.
 \openout1 = `tipe.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36875 strings out of 478238
- 732434 string characters out of 5850456
- 1409765 words of memory out of 5000000
- 54341 multiletter control sequences out of 15000+600000
+ 36960 strings out of 478238
+ 734491 string characters out of 5850456
+ 1410945 words of memory out of 5000000
+ 54410 multiletter control sequences out of 15000+600000
  498726 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,19n,122p,763b,2318s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 128i,19n,122p,1277b,2318s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 pdfTeX warning (dest): name{fig\\unskip\040\\penalty\040\\@M\040\040:dilution} has been referenced but does not exist, replaced by a fixed one
 
@@ -1391,10 +1450,10 @@ pdfTeX warning (dest): name{fig\\unskip\040\\penalty\040\\@M\040\040:dilution} h
 pdfTeX warning (dest): name{fig\\unskip\040\\penalty\040\\@M\040\040:multipath} has been referenced but does not exist, replaced by a fixed one
 
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on tipe.pdf (27 pages, 2291332 bytes).
+Output written on tipe.pdf (31 pages, 2483058 bytes).
 PDF statistics:
- 1761 PDF objects out of 2073 (max. 8388607)
- 1567 compressed objects within 16 object streams
- 82 named destinations out of 1000 (max. 500000)
- 380 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2011 PDF objects out of 2073 (max. 8388607)
+ 1798 compressed objects within 18 object streams
+ 92 named destinations out of 1000 (max. 500000)
+ 407 words of extra memory for PDF output out of 10000 (max. 10000000)
 
