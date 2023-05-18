@@ -178,19 +178,21 @@
 	\justifying
 	\begin{columns}
 		\begin{column}{0.5\textwidth}
-			Le \textbf{multipath} (multi-trajet): le signal émis par le satellite est réfléchi par un objet avant d'atteindre le récepteur. (cf. Figure 5)
+			Le \textbf{multipath} (multi-trajet): le signal émis par le satellite est réfléchi par un objet avant d'atteindre le récepteur. (cf. Figure \ref{fig:multipath})
 			\begin{figure}
 				\centering
 				\includegraphics[width=0.5\textwidth]{./Figures/multipath.png} \\
 				\caption {Multipath \cite{esa}}
+				\label{fig:multipath}
 			\end{figure}
 		\end{column}
 		\begin{column}{0.5\textwidth}
-			La \textbf{dilution} (GDOP): la géométrie des satellites par rapport au récepteur influe sur la précision de la mesure. (cf. Figure 6)
+			La \textbf{dilution} (GDOP): la géométrie des satellites par rapport au récepteur influe sur la précision de la mesure. (cf. Figure \ref{fig:dilution})
 			\begin{figure}
 				\centering
 				\includegraphics[width=0.8\textwidth]{./Figures/dilution.png} \\
 				\caption {Coef. de dilution élevée \cite{esa}}
+				\label{fig:dilution}
 			\end{figure}
 			
 		\end{column}
@@ -379,30 +381,87 @@
 \end{frame}
 
 \appendix
-\begin{frame}
+\begin{frame}[allowframebreaks]
 	\frametitle{Bibliographie}
 	\printbibliography
 \end{frame}
 
 \section{Annexe 1}
 \begin{frame}
+	\label{appendix:1}
 	\frametitle{Modélisation, perturbation gravitationnelle}
 	
 \end{frame}
 
 \section{Annexe 2}
 \begin{frame}
+	\label{appendix:2}
 	\frametitle{Démonstration TEC}
+
+	\begin{columns}
+		\begin{column}{0.5\textwidth}
+			{\small Modélisation de l'onde par: $\vec{\underline{E}} = \vec{\underline{E_0}} \cdot exp(i(\omega t - kx))$ \\
+			\textbf{Hypothèses :} \\ Poids et champ magnétique négligeable devant le champ électrique.\\ 
+			\textbf{PDF et passage en complexe :} $m_e \frac{d \vec{\underline{v_e}}}{dt} = -e \vec{\underline{E}} \leftrightarrow i m_e \omega \vec{\underline{v_e}} = -e \vec{\underline{E}}$
+			\\ Par définition : $\vec{\underline{j_e}}= -e n_e \vec{\underline{v_e}}$, soit: $\vec{\underline{j_e}} = \frac{e^2 n_e}{i m_e \omega} \vec{\underline{E}}$ \\
+			D'après l'équation de propagation : $\vec{\Delta} \vec E - \frac{1}{c^2} \frac{\partial^2 \vec E}{\partial t^2} = \mu_0 \frac{\partial \vec j}{\partial t}$ \\
+			On en déduit le signal complexe : $k^2 = \frac{\omega^2}{c^2} - \frac{e^2 n_e}{c^2 \epsilon_0 m_e}$ \\
+			\textbf{Vitesse de phase :} $v_{\phi} = \frac{\omega}{k} = \frac{c}{\sqrt{1 - \frac{{f_p}^2}{f^2}}}$ \\
+			
+			}
+			section		\end{column}
+
+		\begin{column}{0.5\textwidth}
+			\begin{flushright}
+				{\tiny \textit{D'après sujet E3A, \cite{e3a}}}
+			\end{flushright}
+		\end{column}
+	\end{columns}
 \end{frame}
 
 \section{Annexe 3}
 \begin{frame}
+	\label{appendix:3}
 	\frametitle{Le signal GPS}
 \end{frame}
 
 \section{Annexe 4}
 \begin{frame}
+	\label{appendix:4}
 	\frametitle{Démonstration Multipath}
+
+	\begin{columns}
+		\begin{column}{0.5\textwidth}
+			{\small
+			On \textbf{modélise les signaux} $L_1$ et $L_5$ par: \\
+			$P_1 = R +I1 +MP1$ et $P_5 = R + I5 + MP5$ \\
+			\textit{Avec : $R$ la distance réelle, $I1$ et $I5$ les erreurs ionosphériques, $MP1$ et $MP5$ les erreurs multipath.} \\
+			Ainsi que leurs \textbf{phases respectives :} \\
+			$L_1 = R - I1 + mp1 + B1$ et $L_5 = R - I5 + mp5 + B5$ \\
+			\textit{Avec : $B1$ et $B5$ les ambiguïtés de phase. On néglige $mp << MP \leftrightarrow mp=0$} \\
+			D'après \textit{Annexe 3} $I_i = \frac{A}{f_i^2}T_{EC}$ soit: 
+			\begin{center}
+				$\frac{I_5}{I_2} = \frac{f_1}{f_5}^2 = \alpha$
+			\end{center}
+			}
+		\end{column}
+
+		\begin{column}{0.5\textwidth}
+			Après calcul des différentes combinaisons, \textbf{on obtient :} \\
+			{\small $MP1 - P1 + (\frac{2}{\alpha - 1} + 1)L1 - (\frac{2}{\alpha - 1}) L5 = cte$} \\
+			Comme le multipath est à valeur moyenne nulle, \textbf{on a :} \newline
+
+			{\footnotesize \boxed{MP1 = P1 - (\frac{2}{\alpha - 1} + 1)L1 + (\frac{2}{\alpha - 1}) L5}} \newline
+
+			\textbf{De même pour $MP5$ :} \newline
+			
+			{\footnotesize \boxed{MP5 = P5 - (\frac{2 \alpha}{\alpha - 1})L1 + (\frac{2 \alpha}{\alpha - 1} - 1)L5}} \\
+
+			\begin{flushright}
+				{\tiny \textit{D'après Eric Calais, \cite{ens}}}
+			\end{flushright}
+		\end{column}
+	\end{columns}
 \end{frame}
 %--------- THANK YOU Text ------- texlive-most -------------------
 %----------------------------------------------------
