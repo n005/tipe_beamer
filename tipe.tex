@@ -58,6 +58,7 @@
 \usepackage{bm}
 \usepackage{csquotes}
 \usepackage{wrapfig}
+\usepackage{listings}
 
 %-------- for bibliography -----------------
 \usepackage{biblatex}
@@ -360,8 +361,26 @@
 \end{frame}
 
 \begin{frame}{Protocole expérimental}
-	RTKlib avec et sans correction ionosphérique.
-	Calcul du TEC à partir de la phase et de la speudorange.
+	 \begin{columns}
+		\begin{column}{0.3\textwidth}
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.7\textwidth]{./Figures/UNAVCO.png}
+				\caption {Outil de calcul du TEC, tecq \textit{UNAVCO}}	
+			\end{figure}
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.7\textwidth]{./Figures/rtklib.jpg}
+				\caption {Outil de calcul de solution, \textit{rtklib}}	
+			\end{figure}
+		\end{column}
+		\begin{column}{0.7\textwidth}
+			\begin{itemize}
+				\item RTKlib avec et sans correction ionosphérique.
+				\item Calcul du TEC à partir de la phase et de la speudorange.
+			\end{itemize}
+		\end{column}
+	 \end{columns}
 \end{frame}
 
 \begin{frame}{Résultats}
@@ -443,10 +462,57 @@
 \begin{frame}{Résultats}
 	\begin{figure}
 		\centering
-		%\includegraphics[width=0.7\textwidth]{./Figures/multipath.png}
+		\includegraphics[width=0.7\textwidth]{./Figures/mp_exp.png}
 		\caption {Multipath en fonction du temps}	
 	\end{figure}
 \end{frame}
+
+\section{Dilution géométrique}
+\begin{frame}{Outils}
+	\centering
+	\textbf{Outils :} gnssplanning.com, calcul le GDOP.
+	\newline
+	\begin{columns}
+		\begin{column}{0.5\textwidth}
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.7\textwidth]{./Figures/gdop15.png}
+				\caption{Skyplot pour une limite de 15° (22/01/23 15h), GDOP: 2.35}	
+			\end{figure}
+		\end{column}
+
+		\begin{column}{0.5\textwidth}
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.8\textwidth]{./Figures/gdop35.png}
+				\caption{Skyplot pour une limite de 35° (22/01/23 15h), GDOP: 4.56}	
+			\end{figure}
+		\end{column}
+	\end{columns}
+\end{frame}
+\begin{frame}{Expérimentations}
+	\textbf{Calcul de la position} à l'aide de \textit{RTKlib} avec un mask de 15° et 35°.
+	\newline
+	\begin{columns}
+		\begin{column}{0.5\textwidth}
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.8\textwidth]{./Figures/GDOP15.jpg}
+				\caption{Position avec un mask de 15°}
+			\end{figure}
+		\end{column}
+
+		\begin{column}{0.5\textwidth}
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.8\textwidth]{./Figures/GDOP35.jpg}
+				\caption{Position avec un mask de 35°}
+			\end{figure}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+
 \miniframesoff
 \begin{frame}
 	\centering
@@ -513,11 +579,17 @@
 			\end{figure}
 		\end{column}
 		\begin{column}{0.5\textwidth}
-			Détermine le pic de corrélation (code GOLD) et en déduit le décalage temporel.
+			{\tiny Détermine le pic de corrélation (code GOLD) et en déduit le décalage temporel.}
 			\begin{figure}
 				\centering
-				\includegraphics[width=0.8\textwidth]{./Figures/correl2.png}
+				\includegraphics[width=0.5\textwidth]{./Figures/correl2.png}
 				\caption {Fonction de corrélation \cite{ens}}
+			\end{figure}
+
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.4\textwidth]{./Figures/phase.png}
+				\caption {Cycle de phase \cite{ens}}
 			\end{figure}
 		\end{column}
 	\end{columns}
@@ -558,6 +630,105 @@
 			\begin{flushright}
 				{\tiny \textit{D'après Eric Calais, \cite{ens}}}
 			\end{flushright}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\section{Annexe 5}
+\begin{frame}
+	\label{appendix:5}
+	\frametitle{Fichiers RINEX}
+	\textbf{RINEX} : Receiver Independent Exchange Format \\
+	Fichier d'observation : \\
+	\begin{itemize}
+		\item Phase
+		\item Code (Speudorange)
+		\item Doppler
+		\item Rapport signal sur bruit (C/N0) 
+	\end{itemize}
+	Fichier de navigation : \\
+	\begin{itemize}
+		\item Ephémérides
+		\item Heure
+		\item Erreurs ionosphériques
+		\item Erreurs de relativité restreinte
+		\item ...
+	\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile, allowframebreaks]
+	\frametitle{Exemple de fichier RINEX}
+
+	Fichier de navigation :
+	\begin{lstlisting}[basicstyle=\tiny]
+2              NAVIGATION DATA                         RINEX VERSION / TYPE
+CCRINEXN V1.6.0 UX  CDDIS               17-JAN-23 13:53     PGM / RUN BY / DATE 
+IGS BROADCAST EPHEMERIS FILE                                COMMENT             
+	0.2980D-07  0.2980D-07 -0.1192D-06  0.0000D+00          ION ALPHA           
+	0.1516D+06 -0.1638D+06  0.0000D+00  0.6554D+05          ION BETA            
+   -0.558793544769D-08-0.177635683940D-13   405504     2245 DELTA-UTC: A0,A1,T,W
+	18                                                      LEAP SECONDS        
+															END OF HEADER       
+ 1 23  1 17  0  0  0.0 0.223558396101D-03-0.466116034659D-11 0.000000000000D+00
+	0.850000000000D+02-0.782812500000D+02 0.394659296287D-08 0.400711955078D+00
+   -0.396929681301D-05 0.122224817751D-01 0.587478280067D-05 0.515365424919D+04
+	0.172800000000D+06-0.124797224999D-06-0.163560063383D+01 0.128522515297D-06
+	0.989089047026D+00 0.281125000000D+03 0.937393524649D+00-0.806640742682D-08
+   -0.222509268404D-09 0.100000000000D+01 0.224500000000D+04 0.000000000000D+00
+	0.200000000000D+01 0.000000000000D+00 0.465661287308D-08 0.850000000000D+02
+	0.165673000000D+06 0.400000000000D+01 0.000000000000D+00 0.000000000000D+00
+2 23  1 17  0  0  0.0-0.626868102699D-03 0.227373675443D-11 0.000000000000D+00
+	0.780000000000D+02-0.814375000000D+02 0.447197198987D-08-0.574309133343D+00
+   -0.426545739174D-05 0.200936053880D-01 0.661425292492D-05 0.515369303703D+04
+	\end{lstlisting}
+
+	Fichier d'observation :
+	\begin{lstlisting}[basicstyle=\tiny]
+3.03           OBSERVATION DATA    M                   RINEX VERSION / TYPE
+GnssLogger          Xiaomi 10           20230117 132006 UTC PGM / RUN BY / DATE
+Google GnssLogger                                           MARKER NAME
+G    8 C1C L1C D1C S1C C5Q L5Q D5Q S5Q                      SYS / #### / OBS TYPES
+R    4 C1C L1C D1C S1C                                      SYS / #### / OBS TYPES
+C    4 C2C L2C D2C S2C                                      SYS / #### / OBS TYPES
+E    8 C1C L1C D1C S1C C5Q L5Q D5Q S5Q                      SYS / #### / OBS TYPES
+E L5Q  0.00000                                              SYS / PHASE SHIFT
+ C1C    0.000 C1P    0.000 C2C    0.000 C2P    0.000        GLONASS COD/PHS/BIS
+															END OF HEADER
+> 2023 01 17 13 20 06.9995244  0 28                      
+G06                     -9106.87612      2273.16912        13.59612                     -6784.17911      1726.83711        11.19011
+G10                      8004.38113     -2010.76113        19.12713                      5935.91711     -1433.92611        10.63511
+G11                    -12882.26412      3222.43712        17.30012                                                                
+G12  20136967.66714     -2423.03914       846.72914        28.16814                                                                
+G15                     14170.13812     -3560.32412        15.63512                                                                
+G17                     11523.98012     -2880.99612        16.73612                                                                
+G19                      6755.80613     -1698.35913        19.88813                                                                
+G23                     10819.77012     -2698.71212        15.78612                                                                
+G29                    -17008.92912      4251.70412        15.18812   
+	\end{lstlisting}
+
+\end{frame}
+
+\section{Annexe 6}
+\begin{frame}
+	\label{appendix:6}
+	\frametitle{Biais d'horloge - Xiaomi Mi 8}
+	Exemple de biais d'horloge et de fréquence pour un récepteur Xiaomi Mi 8, expérimental.
+	\newline
+	\begin{columns}
+		\begin{column}{0.5\textwidth}
+			\begin{figure}
+				\centering
+				\includegraphics[width=1\textwidth]{./Figures/Clock bias.png}
+				\caption {Biais d'horloge}
+			\end{figure}
+		\end{column}
+
+		\begin{column}{0.5\textwidth}
+			\begin{figure}
+				\centering
+				\includegraphics[width=1\textwidth]{./Figures/Clock bias_freq.png}
+				\caption {Biais de fréquence}
+			\end{figure}
 		\end{column}
 	\end{columns}
 \end{frame}
