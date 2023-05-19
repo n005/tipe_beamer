@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber tipe"] 1684501089 "tipe.bcf" "tipe.bbl" "tipe" 1684501110
+["biber tipe"] 1684526699 "tipe.bcf" "tipe.bbl" "tipe" 1684526917
   "References.bib" 1684439923 3510 59d1b6b8754d400f5c3fa67c47d8c1d8 ""
-  "tipe.bcf" 1684501110 109031 aa64da391727b49d6694f463ca2fdbbd "pdflatex"
+  "tipe.bcf" 1684526917 109031 aa64da391727b49d6694f463ca2fdbbd "pdflatex"
   (generated)
   "tipe.bbl"
   "tipe.blg"
-["pdflatex"] 1684501100 "/home/n005/PT/TIPE_beamer/tipe.tex" "tipe.pdf" "tipe" 1684501110
-  "/home/n005/PT/TIPE_beamer/tipe.tex" 1684501089 25635 52ec7edfad90a1cf6f07519b4b8b3acb ""
+["pdflatex"] 1684526908 "/home/n005/PT/TIPE_beamer/tipe.tex" "tipe.pdf" "tipe" 1684526917
+  "/home/n005/PT/TIPE_beamer/tipe.tex" 1684526908 28179 11471e284d2ffc5447d367b57830d062 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1650183167 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1650183167 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/tcss0600.tfm" 1650183167 1536 d1b127de7ce318d6eac2b01aea48d7ed ""
@@ -285,6 +285,7 @@
   "/usr/share/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty" 1650183167 5766 13a9e8766c47f30327caf893ece86ac8 ""
   "/usr/share/texmf-dist/tex/latex/listings/listings.cfg" 1650183167 1830 e31effa752c61538383451ae21332364 ""
   "/usr/share/texmf-dist/tex/latex/listings/listings.sty" 1650183167 80964 64e57373f36316e4a09b517cbf1aba2e ""
+  "/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty" 1650183167 204271 bae5b2d457283e99567249c1990510be ""
   "/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty" 1650183167 77022 ee25ce086f4a79d8cf73bac6f94c02a5 ""
   "/usr/share/texmf-dist/tex/latex/logreq/logreq.def" 1650185741 1620 fb1c32b818f2058eca187e5c41dfae77 ""
   "/usr/share/texmf-dist/tex/latex/logreq/logreq.sty" 1650185741 6187 b27afc771af565d3a9ff1ca7d16d0d46 ""
@@ -338,6 +339,7 @@
   "Figures/dual_band.jpg" 1684437793 39866 ad42bfd6c2a7a51ad12d24624811276b ""
   "Figures/gdop15.png" 1684495078 203628 d19a0358c3a755d1a8f5af1621f1d248 ""
   "Figures/gdop35.png" 1684495081 131803 5005cad128dc330d2086f80aa0b0ceba ""
+  "Figures/gnss_logger.jpg" 1684523804 4460 f68dd6944895bf0ab5f33cbcc002cac9 ""
   "Figures/iono_e3a.png" 1680713097 26116 54c520a63df5dcb6a2403be66758929c ""
   "Figures/iono_profil.png" 1684163526 31546 e1cb7b41ee65dc64f99535a6f4ff610b ""
   "Figures/iono_ucar.png" 1680707157 437013 440377247414fa2cf24e3058bd668d9b ""
@@ -350,14 +352,14 @@
   "Figures/phase.png" 1684487403 27930 f184c7f7d851b6da81ac521d569fac1c ""
   "Figures/rtklib.jpg" 1684500811 7135 ad3b4a87b5cda1dcb2640b8cb35672b4 ""
   "Figures/stats.png" 1680009817 17349 c8ad7b8ef6f6e8aa2ab28c95e3968b35 ""
-  "tipe.aux" 1684501110 13171 ae2c17b4767aa4b82e0d8c0db055a068 "pdflatex"
-  "tipe.bbl" 1684501091 13982 e71901efaddb46f69c79d9ec3197912c "biber tipe"
-  "tipe.nav" 1684501110 5904 b53b555757301bfd541dcd6f47111122 "pdflatex"
-  "tipe.out" 1684501110 1581 011db261a1944f23c2bb10f97ee6972c "pdflatex"
-  "tipe.run.xml" 1684501110 2304 10cab2975671ed551025cd8ea85065e8 "pdflatex"
-  "tipe.tex" 1684501089 25635 52ec7edfad90a1cf6f07519b4b8b3acb ""
-  "tipe.toc" 1684501110 642 c5bf8a6d381aad5a0fe81e3a50d6b1bd "pdflatex"
-  "tipe.vrb" 1684501109 3124 e8f61848e7c3d7f9d274d55398965fcb "pdflatex"
+  "tipe.aux" 1684526917 13702 f7c355a6f3402f2ae996c41e5e83ee59 "pdflatex"
+  "tipe.bbl" 1684526700 13982 e71901efaddb46f69c79d9ec3197912c "biber tipe"
+  "tipe.nav" 1684526917 6244 acd01a64e95327ecabec03ca6308ef92 "pdflatex"
+  "tipe.out" 1684526917 1677 82792421a64d4c05c282062b26be5c01 "pdflatex"
+  "tipe.run.xml" 1684526917 2304 10cab2975671ed551025cd8ea85065e8 "pdflatex"
+  "tipe.tex" 1684526908 28179 11471e284d2ffc5447d367b57830d062 ""
+  "tipe.toc" 1684526917 689 c4e4da2300fc689b66ba2abac5bd279b "pdflatex"
+  "tipe.vrb" 1684526917 1166 45afba4d68c1759ef84481acf7a8a1c3 "pdflatex"
   (generated)
   "tipe.aux"
   "tipe.bcf"

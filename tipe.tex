@@ -164,7 +164,7 @@
 	\frametitle{Sources d'incertitude}
 	\justifying
 	\begin{itemize}
-		\item Les horloges des satellites et des récepteurs ne sont pas synchronisés. ($\delta t$)
+		\item Les horloges des satellites et des récepteurs ne sont pas synchronisés. ($\delta t$) {\tiny (Exemple Annexe 6)}
 		\item Réfraction lors de la propagation dans l’atmosphère :
 		\item \begin{enumerate}
 			\item Troposphérique (dépend de la température et de la pression atmosphérique) ($T_r^s$)
@@ -365,25 +365,21 @@
 		\begin{column}{0.3\textwidth}
 			\begin{figure}
 				\centering
-				\includegraphics[width=0.7\textwidth]{./Figures/UNAVCO.png}
-				\caption {Outil de calcul du TEC, tecq \textit{UNAVCO}}	
-			\end{figure}
-			\begin{figure}
-				\centering
-				\includegraphics[width=0.7\textwidth]{./Figures/rtklib.jpg}
-				\caption {Outil de calcul de solution, \textit{rtklib}}	
+				\includegraphics[width=0.7\textwidth]{./Figures/gnss_logger.jpg}
+				\caption {GNSS Logger de \textit{Google}}	
 			\end{figure}
 		\end{column}
 		\begin{column}{0.7\textwidth}
 			\begin{itemize}
-				\item RTKlib avec et sans correction ionosphérique.
-				\item Calcul du TEC à partir de la phase et de la speudorange.
+				\item Récupération des données brute sur Xiaomi Mi 8 avec \textit{GNSS Logger} de \textit{Google}.
+				\item Calcul du TEC et du délai ionosphérique avec \textit{Python} {\tiny (Voir Annexe 7)}.
 			\end{itemize}
 		\end{column}
 	 \end{columns}
 \end{frame}
 
 \begin{frame}{Résultats}
+	L'estimation du TEC est possible que sur de courte session due aux \textit{duty cycle} {\tiny (Voir Annexe 3)}
 	\begin{figure}
 		\centering
 		%\includegraphics[width=0.7\textwidth]{./Figures/tec.png}
@@ -456,10 +452,43 @@
 	\begin{itemize}
 		\item Calcul du multipath à partir de la phase et de la speudorange.
 		\item Basé sur un article de Umberto et al. \cite{mi8}
+		\begin{itemize}
+			\item Utilisation d'un \textit{Xiaomi mi 8} et de \textit{Google GNSS Logger} pour récupérer les fichiers RINEX. {\tiny (voir Annexe 5)}
+			\item Deux cas, peu de réflexion (campagne) et beaucoup de réflexion (ville).
+			\item Traitement des données avec \textit{rtklib}. (Conversion de format)
+			\item Traitement et calcul du multipath avec \textit{Tecq}.
+			\item Analyse des résultats avec \textit{Python}. {\tiny (Voir Annexe 7)}
+		\end{itemize}
 	\end{itemize}
+	\begin{columns}
+		\begin{column}{0.3\textwidth}
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.5\textwidth]{./Figures/rtklib.jpg}
+				\caption {Outil de calcul de solution, \textit{rtklib}}
+			\end{figure}		
+		\end{column}
+
+		\begin{column}{0.3\textwidth}
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.7\textwidth]{./Figures/UNAVCO.png}
+				\caption {Outil de calcul de multipath, \textit{Tecq}}
+			\end{figure}
+		\end{column}
+
+		\begin{column}{0.3\textwidth}
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.4\textwidth]{./Figures/gnss_logger.jpg}
+				\caption {Outil de récupération de données, \textit{Google GNSS Logger}}
+			\end{figure}
+		\end{column}
+	\end{columns}
 \end{frame}
 
 \begin{frame}{Résultats}
+	Mp en intérieur, extérieur en ville et en campagne; statique.
 	\begin{figure}
 		\centering
 		\includegraphics[width=0.7\textwidth]{./Figures/mp_exp.png}
@@ -681,7 +710,8 @@ IGS BROADCAST EPHEMERIS FILE                                COMMENT
 	0.780000000000D+02-0.814375000000D+02 0.447197198987D-08-0.574309133343D+00
    -0.426545739174D-05 0.200936053880D-01 0.661425292492D-05 0.515369303703D+04
 	\end{lstlisting}
-
+	
+	
 	Fichier d'observation :
 	\begin{lstlisting}[basicstyle=\tiny]
 3.03           OBSERVATION DATA    M                   RINEX VERSION / TYPE
@@ -731,6 +761,56 @@ G29                    -17008.92912      4251.70412        15.18812
 			\end{figure}
 		\end{column}
 	\end{columns}
+\end{frame}
+
+\section{Annexe 7}
+\begin{frame}[fragile, allowframebreaks]
+	\frametitle{Code python - COMPACT3}
+	\noindent
+	\begin{lstlisting}[language=Python,basicstyle=\tiny]
+import pandas as pd
+from datetime import datetime, timedelta
+nbval=0
+sat=[]
+def compread(filepath):
+	file = open(filepath, "r")
+	line = file.readline()
+	i=1
+	time=0
+	cellsat=[]
+	value=[]
+	output=[['TIME', 'PRN', 'misure']]
+	while line:
+		if "GPS_START_TIME" in line:
+			celldata=line.split()
+			year=int(celldata[1])
+			month=int(celldata[2])
+			day=int(celldata[3])
+			hour=int(celldata[4])
+			minute=int(celldata[5])
+			second=int(float(celldata[6]))
+			dt=datetime(year, month, day, hour, minute, second)
+		if (i % 2) != 0 and i>2:
+			cellsat=line.split()
+			time=int(float(cellsat[0]))
+			if int(cellsat[1]) != -1:
+				nbval=int(cellsat[1])
+				sat=[cellsat[e] for e in range(2,nbval+2)]
+		if (i % 2) == 0 and i>2:
+			cellval=line.split()
+			value=[]
+			for f in range(nbval):
+				if "S" in cellval[f]:
+					value.append("NaN")
+				else:
+					value.append(float(cellval[f]))
+				output.append([(dt+timedelta(seconds=time)),sat[f],value[f]])
+		
+		i=i+1
+		line = file.readline()
+	file.close()   
+	return pd.DataFrame(output[1:], columns=output[0])
+	\end{lstlisting}
 \end{frame}
 %--------- THANK YOU Text ------- texlive-most -------------------
 %----------------------------------------------------

@@ -1837,16 +1837,11 @@ INPUT ./Figures/BCM47755.jpg
 INPUT ./Figures/BCM47755.jpg
 INPUT ./Figures/BCM47755.jpg
 INPUT ./Figures/BCM47755.jpg
-INPUT ./Figures/UNAVCO.png
-INPUT ./Figures/UNAVCO.png
-INPUT ./Figures/UNAVCO.png
-INPUT ./Figures/UNAVCO.png
-INPUT ./Figures/UNAVCO.png
-INPUT ./Figures/rtklib.jpg
-INPUT ./Figures/rtklib.jpg
-INPUT ./Figures/rtklib.jpg
-INPUT ./Figures/rtklib.jpg
-INPUT ./Figures/rtklib.jpg
+INPUT ./Figures/gnss_logger.jpg
+INPUT ./Figures/gnss_logger.jpg
+INPUT ./Figures/gnss_logger.jpg
+INPUT ./Figures/gnss_logger.jpg
+INPUT ./Figures/gnss_logger.jpg
 INPUT ./Figures/multipath2.png
 INPUT ./Figures/multipath2.png
 INPUT ./Figures/multipath2.png
@@ -1868,6 +1863,20 @@ INPUT ./Figures/phase.jpg
 INPUT ./Figures/phase.jpg
 INPUT ./Figures/phase.jpg
 INPUT ./Figures/phase.jpg
+INPUT ./Figures/rtklib.jpg
+INPUT ./Figures/rtklib.jpg
+INPUT ./Figures/rtklib.jpg
+INPUT ./Figures/rtklib.jpg
+INPUT ./Figures/rtklib.jpg
+INPUT ./Figures/UNAVCO.png
+INPUT ./Figures/UNAVCO.png
+INPUT ./Figures/UNAVCO.png
+INPUT ./Figures/UNAVCO.png
+INPUT ./Figures/UNAVCO.png
+INPUT ./Figures/gnss_logger.jpg
+INPUT ./Figures/gnss_logger.jpg
+INPUT ./Figures/gnss_logger.jpg
+INPUT ./Figures/gnss_logger.jpg
 INPUT ./Figures/mp_exp.png
 INPUT ./Figures/mp_exp.png
 INPUT ./Figures/mp_exp.png
@@ -1932,6 +1941,15 @@ INPUT ./Figures/Clock bias_freq.png
 INPUT ./Figures/Clock bias_freq.png
 INPUT ./Figures/Clock bias_freq.png
 INPUT ./Figures/Clock bias_freq.png
+OUTPUT tipe.vrb
+INPUT ./tipe.vrb
+INPUT tipe.vrb
+INPUT ./tipe.vrb
+INPUT tipe.vrb
+INPUT /usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT /usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT /usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT /usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
 OUTPUT tipe.nav
 OUTPUT tipe.toc
 OUTPUT tipe.snm

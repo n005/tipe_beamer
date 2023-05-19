@@ -1,49 +1,46 @@
-\frametitle{Exemple de fichier RINEX}
-
-	Fichier de navigation :
-	\begin{lstlisting}[basicstyle=\tiny]
-2              NAVIGATION DATA                         RINEX VERSION / TYPE
-CCRINEXN V1.6.0 UX  CDDIS               17-JAN-23 13:53     PGM / RUN BY / DATE
-IGS BROADCAST EPHEMERIS FILE                                COMMENT
-	0.2980D-07  0.2980D-07 -0.1192D-06  0.0000D+00          ION ALPHA
-	0.1516D+06 -0.1638D+06  0.0000D+00  0.6554D+05          ION BETA
-   -0.558793544769D-08-0.177635683940D-13   405504     2245 DELTA-UTC: A0,A1,T,W
-	18                                                      LEAP SECONDS
-															END OF HEADER
- 1 23  1 17  0  0  0.0 0.223558396101D-03-0.466116034659D-11 0.000000000000D+00
-	0.850000000000D+02-0.782812500000D+02 0.394659296287D-08 0.400711955078D+00
-   -0.396929681301D-05 0.122224817751D-01 0.587478280067D-05 0.515365424919D+04
-	0.172800000000D+06-0.124797224999D-06-0.163560063383D+01 0.128522515297D-06
-	0.989089047026D+00 0.281125000000D+03 0.937393524649D+00-0.806640742682D-08
-   -0.222509268404D-09 0.100000000000D+01 0.224500000000D+04 0.000000000000D+00
-	0.200000000000D+01 0.000000000000D+00 0.465661287308D-08 0.850000000000D+02
-	0.165673000000D+06 0.400000000000D+01 0.000000000000D+00 0.000000000000D+00
-2 23  1 17  0  0  0.0-0.626868102699D-03 0.227373675443D-11 0.000000000000D+00
-	0.780000000000D+02-0.814375000000D+02 0.447197198987D-08-0.574309133343D+00
-   -0.426545739174D-05 0.200936053880D-01 0.661425292492D-05 0.515369303703D+04
+\frametitle{Code python - COMPACT3}
+	\noindent
+	\begin{lstlisting}[language=Python,basicstyle=\tiny]
+import pandas as pd
+from datetime import datetime, timedelta
+nbval=0
+sat=[]
+def compread(filepath):
+	file = open(filepath, "r")
+	line = file.readline()
+	i=1
+	time=0
+	cellsat=[]
+	value=[]
+	output=[['TIME', 'PRN', 'misure']]
+	while line:
+		if "GPS_START_TIME" in line:
+			celldata=line.split()
+			year=int(celldata[1])
+			month=int(celldata[2])
+			day=int(celldata[3])
+			hour=int(celldata[4])
+			minute=int(celldata[5])
+			second=int(float(celldata[6]))
+			dt=datetime(year, month, day, hour, minute, second)
+		if (i % 2) != 0 and i>2:
+			cellsat=line.split()
+			time=int(float(cellsat[0]))
+			if int(cellsat[1]) != -1:
+				nbval=int(cellsat[1])
+				sat=[cellsat[e] for e in range(2,nbval+2)]
+		if (i % 2) == 0 and i>2:
+			cellval=line.split()
+			value=[]
+			for f in range(nbval):
+				if "S" in cellval[f]:
+					value.append("NaN")
+				else:
+					value.append(float(cellval[f]))
+				output.append([(dt+timedelta(seconds=time)),sat[f],value[f]])
+		
+		i=i+1
+		line = file.readline()
+	file.close()
+	return pd.DataFrame(output[1:], columns=output[0])
 	\end{lstlisting}
-
-	Fichier d'observation :
-	\begin{lstlisting}[basicstyle=\tiny]
-3.03           OBSERVATION DATA    M                   RINEX VERSION / TYPE
-GnssLogger          Xiaomi 10           20230117 132006 UTC PGM / RUN BY / DATE
-Google GnssLogger                                           MARKER NAME
-G    8 C1C L1C D1C S1C C5Q L5Q D5Q S5Q                      SYS / #### / OBS TYPES
-R    4 C1C L1C D1C S1C                                      SYS / #### / OBS TYPES
-C    4 C2C L2C D2C S2C                                      SYS / #### / OBS TYPES
-E    8 C1C L1C D1C S1C C5Q L5Q D5Q S5Q                      SYS / #### / OBS TYPES
-E L5Q  0.00000                                              SYS / PHASE SHIFT
- C1C    0.000 C1P    0.000 C2C    0.000 C2P    0.000        GLONASS COD/PHS/BIS
-															END OF HEADER
-> 2023 01 17 13 20 06.9995244  0 28
-G06                     -9106.87612      2273.16912        13.59612                     -6784.17911      1726.83711        11.19011
-G10                      8004.38113     -2010.76113        19.12713                      5935.91711     -1433.92611        10.63511
-G11                    -12882.26412      3222.43712        17.30012
-G12  20136967.66714     -2423.03914       846.72914        28.16814
-G15                     14170.13812     -3560.32412        15.63512
-G17                     11523.98012     -2880.99612        16.73612
-G19                      6755.80613     -1698.35913        19.88813
-G23                     10819.77012     -2698.71212        15.78612
-G29                    -17008.92912      4251.70412        15.18812
-	\end{lstlisting}
-
