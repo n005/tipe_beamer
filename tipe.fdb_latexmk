@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber tipe"] 1685043793 "tipe.bcf" "tipe.bbl" "tipe" 1685044054
+["biber tipe"] 1685043793 "tipe.bcf" "tipe.bbl" "tipe" 1685044348
   "References.bib" 1684439923 3510 59d1b6b8754d400f5c3fa67c47d8c1d8 ""
-  "tipe.bcf" 1685044053 109031 aa64da391727b49d6694f463ca2fdbbd "pdflatex"
+  "tipe.bcf" 1685044348 109031 aa64da391727b49d6694f463ca2fdbbd "pdflatex"
   (generated)
   "tipe.bbl"
   "tipe.blg"
-["pdflatex"] 1685044042 "/home/n005/PT/TIPE_beamer/tipe.tex" "tipe.pdf" "tipe" 1685044054
-  "/home/n005/PT/TIPE_beamer/tipe.tex" 1685044041 31466 2588801252410b493e7034923ce92e12 ""
+["pdflatex"] 1685044338 "/home/n005/PT/TIPE_beamer/tipe.tex" "tipe.pdf" "tipe" 1685044348
+  "/home/n005/PT/TIPE_beamer/tipe.tex" 1685044329 31662 2e1bb41d88dda13afe1785d9360003e6 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1650183167 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1650183167 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/tcss0600.tfm" 1650183167 1536 d1b127de7ce318d6eac2b01aea48d7ed ""
@@ -333,6 +333,7 @@
   "Figures/GDOP15.jpg" 1684495071 72793 f064d666d914430a0ba5195754ec5d2f ""
   "Figures/GDOP35.jpg" 1684495065 80327 d52945005319d864213a2105d10a797c ""
   "Figures/MP_G08_dis.png" 1685037809 22269 fa323fbe1d907308e4dd5757fbebcab6 ""
+  "Figures/SNR_elev.jpg" 1685037816 66028 92acc1b01d8b8e5f8093b737d75d584e ""
   "Figures/UNAVCO.png" 1684500865 43028 83a5fafbdd7f1af8a78737867a8d5e25 ""
   "Figures/constellation.jpg" 1680714178 342876 4f49a06d21d4bb9df060c3bdc922ab4e ""
   "Figures/correl.jpg" 1684439549 22963 606d07d34a241f2ccf938733533b9361 ""
@@ -359,14 +360,14 @@
   "Figures/skyplot.jpg" 1685037816 34359 5f5ef4517e6d1a0203ca70d5ec956237 ""
   "Figures/spot1.jpg" 1685038126 4666850 f345f52d75d4fa2fdb5a207d7cfbc029 ""
   "Figures/stats.png" 1680009817 17349 c8ad7b8ef6f6e8aa2ab28c95e3968b35 ""
-  "tipe.aux" 1685044053 14285 4fd8583846b76f7ddd3fd71570036944 "pdflatex"
+  "tipe.aux" 1685044347 14181 b1d71f2be1232687057327fff87e96bf "pdflatex"
   "tipe.bbl" 1685043794 13982 e71901efaddb46f69c79d9ec3197912c "biber tipe"
-  "tipe.nav" 1685044053 6625 fa39789b43fc41dfeacb7cc668256bba "pdflatex"
-  "tipe.out" 1685044053 1641 ba7bf129ede28799dd3011180948970d "pdflatex"
-  "tipe.run.xml" 1685044053 2304 10cab2975671ed551025cd8ea85065e8 "pdflatex"
-  "tipe.tex" 1685044041 31466 2588801252410b493e7034923ce92e12 ""
-  "tipe.toc" 1685044053 711 3b141f58e592584b26d2361733031f25 "pdflatex"
-  "tipe.vrb" 1685044053 1166 45afba4d68c1759ef84481acf7a8a1c3 "pdflatex"
+  "tipe.nav" 1685044348 6625 fa39789b43fc41dfeacb7cc668256bba "pdflatex"
+  "tipe.out" 1685044347 1641 ba7bf129ede28799dd3011180948970d "pdflatex"
+  "tipe.run.xml" 1685044348 2304 10cab2975671ed551025cd8ea85065e8 "pdflatex"
+  "tipe.tex" 1685044329 31662 2e1bb41d88dda13afe1785d9360003e6 ""
+  "tipe.toc" 1685044348 711 3b141f58e592584b26d2361733031f25 "pdflatex"
+  "tipe.vrb" 1685044347 1166 45afba4d68c1759ef84481acf7a8a1c3 "pdflatex"
   (generated)
   "tipe.aux"
   "tipe.bcf"

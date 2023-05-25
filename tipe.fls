@@ -1949,6 +1949,11 @@ INPUT ./Figures/GDOP35.jpg
 INPUT ./Figures/GDOP35.jpg
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
+INPUT ./Figures/SNR_elev.jpg
+INPUT ./Figures/SNR_elev.jpg
+INPUT ./Figures/SNR_elev.jpg
+INPUT ./Figures/SNR_elev.jpg
+INPUT ./Figures/SNR_elev.jpg
 INPUT ./Figures/correl1.png
 INPUT ./Figures/correl1.png
 INPUT ./Figures/correl1.png
