@@ -336,7 +336,7 @@
 
 
 %----------- MAIN RESULTS ------------------------------
-\section{Expérimentations Ionosphérique}
+\section{Exp. Ionosphérique}
 \begin{frame}
 	\centering
 	\begin{block}
@@ -348,7 +348,7 @@
 \end{frame}
 \begin{frame}{Préambule}
         \textbf{Méthode d'évaluation:} 
-		Le CET \textit{Total electron content} s'évalue grâce à un même signal sur deux fréquences.
+		Le retard s'évalue grâce à un même signal sur deux fréquences.
 
         \textbf{Le signal GPS:} 
 	    \begin{itemize}
@@ -372,19 +372,84 @@
 		\begin{column}{0.7\textwidth}
 			\begin{itemize}
 				\item Récupération des données brute sur Xiaomi Mi 8 avec \textit{GNSS Logger} de \textit{Google}.
-				\item Calcul du TEC et du délai ionosphérique avec \textit{Python} {\tiny (Voir Annexe 7)}.
+				\item Calcul du délai ionosphérique avec \textit{Python} {\tiny (Voir Annexe 7)}.
 			\end{itemize}
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.5\textwidth,angle=-90,origin=c]{./Figures/protoc.jpg}
+				\caption {Protocole expérimental}
+			\end{figure}
 		\end{column}
 	 \end{columns}
 \end{frame}
 
+\begin{frame}{Contexte}
+	\begin{columns}
+		\begin{column}{0.5\textwidth}
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.9\textwidth]{./Figures/skyplot.jpg}
+				\caption {Carte du ciel}
+			\end{figure}
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.9\textwidth]{./Figures/spot1.jpg}
+				\caption {Image de la session 1, Nord sur la gauche}
+			\end{figure}
+		\end{column}
+
+	\end{columns}
+\end{frame}
+
+\begin{frame}{Contexte - Signal sur bruit}
+	\begin{columns}
+		\begin{column}{0.5\textwidth}
+			\textbf{Signal sur bruit :} 
+			\begin{itemize}
+				\item Le signal sur bruit est le rapport entre la puissance du signal et la puissance du bruit.
+				\item Il est exprimé en décibel.
+				\item Il est calculé par : $SNR = 10 \cdot log_{10}(\frac{P_{signal}}{P_{bruit}})$
+			\end{itemize}
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.5\textwidth]{./Figures/skyplot.jpg}
+				\caption {Skyplot}
+			\end{figure}
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.6\textwidth]{./Figures/G08_L1.png}
+				\caption {Signal sur bruit G08}
+			\end{figure}
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.6\textwidth]{./Figures/G10_L1.png}
+				\caption {Signal sur bruit G10}
+			\end{figure}
+		\end{column}
+	\end{columns}
+\end{frame}
+
 \begin{frame}{Résultats}
-	L'estimation du TEC est possible que sur de courte session due aux \textit{duty cycle} {\tiny (Voir Annexe 3)}
-	\begin{figure}
-		\centering
-		%\includegraphics[width=0.7\textwidth]{./Figures/tec.png}
-		\caption {TEC en fonction du temps}	
-	\end{figure}
+	L'estimation du délai n'est possible que sur de courte session due aux \textit{duty cycle} {\tiny (Voir Annexe 3)}
+	\begin{columns}
+	\begin{column}{0.5\textwidth}
+		\begin{figure}
+			\includegraphics[width=0.9\textwidth]{./Figures/iono_G08.png}
+			\caption {Délai ionosphérique sur G08}
+		\end{figure}
+	\end{column}
+
+	\begin{column}{0.5\textwidth}
+		\begin{figure}
+			\includegraphics[width=1\textwidth]{./Figures/iono_G10.png}
+			\caption {Délai ionosphérique sur G10}
+		\end{figure}
+	\end{column}
+	\end{columns}
 \end{frame}
 
 \section{Multipath}
@@ -437,7 +502,7 @@
 \end{columns}	
 \end{frame}
 
-\section{Expérimentations Multipath}
+\section{Exp. Multipath}
 \begin{frame}
 	\centering
 	\begin{block}
@@ -488,12 +553,33 @@
 \end{frame}
 
 \begin{frame}{Résultats}
-	Mp en intérieur, extérieur en ville et en campagne; statique.
-	\begin{figure}
-		\centering
-		\includegraphics[width=0.7\textwidth]{./Figures/mp_exp.png}
-		\caption {Multipath en fonction du temps}	
-	\end{figure}
+	Erreur multipath en ville et en campagne; statique.
+	\newline
+	\begin{columns}
+		\begin{column}{0.5\textwidth}
+			{\small En ville, on a une erreur de \textbf{2.5 mètres} en moyenne.}
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.7\textwidth]{./Figures/MP_G08_dis.png}
+				\caption {Multipath de G08}
+			\end{figure}
+			% \begin{figure}
+			% 	\centering
+			% 	\includegraphics[width=0.4\textwidth]{./Figures/MP_G10_dis.png}
+			% 	\caption {Multipath en extérieur}
+			% \end{figure}
+		\end{column}
+
+		\begin{column}{0.5\textwidth}
+			En campagne, l'erreur est de \textbf{quelques centimètres}.
+			\begin{figure}
+				\centering
+				%\includegraphics[width=0.9\textwidth]{./Figures/MP_G10_dis.png}
+				%\caption {Multipath en extérieur}
+			\end{figure}
+			\textit{J'ai pas encore les résultats, mais ça arrive.}
+		\end{column}
+	\end{columns}
 \end{frame}
 
 \section{Dilution géométrique}
@@ -541,6 +627,16 @@
 	\end{columns}
 \end{frame}
 
+\section{Conlusion}
+\begin{frame}{Conclusion}
+	Les smartphones multibandes, multi-constellation permettent d'améliorer la précision de la position:
+	\begin{itemize}
+		\item Une correction de l'erreur ionosphérique.
+		\item En ville, grâce à la réduction du multipath.
+		\item Le multi-constellation augmente le nombre de satellites utilisables, réduisant le GDOP.
+	\end{itemize}
+	Application commerciale possible : projet FLAMMINGO.
+\end{frame}
 
 \miniframesoff
 \begin{frame}
@@ -586,8 +682,16 @@
 			\end{column}
 
 		\begin{column}{0.5\textwidth}
+				{\small \textbf{L'erreur de distance:} $L_1=c \tau_1$ \\
+				Le retard: $\tau=\int_{0}^{H} \frac{dz}{v_g} - \int_{0}^{H} \frac{dz}{c} $ \\
+				Ainsi le \textbf{retard} est : \boxed{\frac{1}{c} \int_{0}^{H} (\frac{c}{v_g} - 1)} \\
+				On a que $v_g=v_{\phi} \cdot (1-\frac{f_p^2}{f_1^2})$ \\
+				Soit: $L_1=\frac{a}{f_1^2} C_{ET}$ \newline
+
+				\textbf{On a donc :} \newline}
+
+				\boxed{C_{ET}=\int_{0}^{H}n_e dz = \frac{\tau}{a} \frac{f_1^2 f_5^2}{f_1^2 - f_5^2}}
 			\begin{flushright}
-				L'indice est inférieur à 1, ... \\
 				{\tiny \textit{D'après sujet E3A, \cite{e3a}}}
 			\end{flushright}
 		\end{column}

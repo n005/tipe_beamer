@@ -1,14 +1,15 @@
 \babel@toc {french}{}\relax 
 \beamer@sectionintoc {1}{Introduction}{2}{0}{1}
 \beamer@sectionintoc {2}{L'ionosphère}{11}{0}{2}
-\beamer@sectionintoc {3}{Expérimentations Ionosphérique}{15}{0}{3}
-\beamer@sectionintoc {4}{Multipath}{19}{0}{4}
-\beamer@sectionintoc {5}{Expérimentations Multipath}{21}{0}{5}
-\beamer@sectionintoc {6}{Dilution géométrique}{24}{0}{6}
-\beamer@sectionintoc {8}{Annexe 1}{30}{1}{7}
-\beamer@sectionintoc {9}{Annexe 2}{31}{1}{8}
-\beamer@sectionintoc {10}{Annexe 3}{32}{1}{9}
-\beamer@sectionintoc {11}{Annexe 4}{33}{1}{10}
-\beamer@sectionintoc {12}{Annexe 5}{34}{1}{11}
-\beamer@sectionintoc {13}{Annexe 6}{37}{1}{12}
-\beamer@sectionintoc {14}{Annexe 7}{38}{1}{13}
+\beamer@sectionintoc {3}{Exp. Ionosphérique}{15}{0}{3}
+\beamer@sectionintoc {4}{Multipath}{21}{0}{4}
+\beamer@sectionintoc {5}{Exp. Multipath}{23}{0}{5}
+\beamer@sectionintoc {6}{Dilution géométrique}{26}{0}{6}
+\beamer@sectionintoc {7}{Conlusion}{28}{0}{7}
+\beamer@sectionintoc {9}{Annexe 1}{33}{1}{8}
+\beamer@sectionintoc {10}{Annexe 2}{34}{1}{9}
+\beamer@sectionintoc {11}{Annexe 3}{35}{1}{10}
+\beamer@sectionintoc {12}{Annexe 4}{36}{1}{11}
+\beamer@sectionintoc {13}{Annexe 5}{37}{1}{12}
+\beamer@sectionintoc {14}{Annexe 6}{40}{1}{13}
+\beamer@sectionintoc {15}{Annexe 7}{41}{1}{14}
