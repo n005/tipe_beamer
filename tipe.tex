@@ -562,11 +562,11 @@
 	\newline
 	\begin{columns}
 		\begin{column}{0.5\textwidth}
-			{\small En ville, on a une erreur de \textbf{2.5 mètres} en moyenne.}
+			{\small En \textbf{ville}, on a une erreur de \textbf{2.5 mètres} en moyenne.}
 			\begin{figure}
 				\centering
-				\includegraphics[width=0.7\textwidth]{./Figures/MP_G08_dis.png}
-				\caption {Multipath de G08}
+				\includegraphics[width=0.8\textwidth]{./Figures/MP_G08_dis.png}
+				\caption {Multipath de G08, erreur 3,2m}
 			\end{figure}
 			% \begin{figure}
 			% 	\centering
@@ -576,15 +576,44 @@
 		\end{column}
 
 		\begin{column}{0.5\textwidth}
-			En campagne, l'erreur est de \textbf{quelques centimètres}.
+			{\small En \textbf{campagne}, l'erreur est de \textbf{quelques centimètres}.}
 			\begin{figure}
 				\centering
-				%\includegraphics[width=0.9\textwidth]{./Figures/MP_G10_dis.png}
-				%\caption {Multipath en extérieur}
+				\includegraphics[width=0.8\textwidth]{./Figures/MP_G25_dis_camp.png}
+				\caption {Multipath en extérieur, erreur 60cm}
 			\end{figure}
-			\textit{J'ai pas encore les résultats, mais ça arrive.}
+			%\textit{J'ai pas encore les résultats, mais ça arrive.}
 		\end{column}
 	\end{columns}
+\end{frame}
+
+\section{Corrections}
+\begin{frame}
+	\frametitle{Corrections}
+	Avec \textbf{RTKlib}:
+	\newline
+	\begin{columns}
+		\begin{column}{0.5\textwidth}
+			{\small \textbf{Sans} correction liée à la double fréquence (soit, \textit{ionosphère et multitrajets})\\
+			Uniquement sur le \textbf{code} (pseudorange)}
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.8\textwidth]{./Figures/single_city.jpg}
+				\caption {Calcul statique (Single), 5 m}
+			\end{figure}
+		\end{column}
+
+		\begin{column}{0.5\textwidth}
+			{\small \textbf{Avec} correction liée à la double fréquence.\\
+			Sur \textbf{pseudorange et phase}.}
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.8\textwidth]{./Figures/ppp_city.jpg}
+				\caption {Calcul statique (PPP), 50 cm}
+			\end{figure}
+		\end{column}
+	\end{columns}
+
 \end{frame}
 
 \section{Dilution géométrique}
