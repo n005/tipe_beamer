@@ -641,6 +641,14 @@
 		\item Le multi-constellation augmente le nombre de satellites utilisables, réduisant le GDOP.
 	\end{itemize}
 	Application commerciale possible : projet FLAMMINGO.
+	\newline
+
+	\textbf{Perspectives :} Solution RTK, PPP, et augmente par SBAS.\\
+	La présentation n'a pas présenté le début d'étude dynamique. {\small (Voir début en annexe)}
+	\newline
+
+	Ainsi, les smartphones sont des outils de positionnement intéressants, mais peuvent devenir assez précis pour des applications de précision.
+	Ainsi diminuant le coût de l'infrastructure.
 \end{frame}
 
 \miniframesoff
@@ -837,16 +845,14 @@ IGS BROADCAST EPHEMERIS FILE                                COMMENT
 	0.780000000000D+02-0.814375000000D+02 0.447197198987D-08-0.574309133343D+00
    -0.426545739174D-05 0.200936053880D-01 0.661425292492D-05 0.515369303703D+04
 	\end{lstlisting}
-	
-	
+\end{frame}
+\begin{frame}[fragile]
 	Fichier d'observation :
 	\begin{lstlisting}[basicstyle=\tiny]
 3.03           OBSERVATION DATA    M                   RINEX VERSION / TYPE
 GnssLogger          Xiaomi 10           20230117 132006 UTC PGM / RUN BY / DATE
 Google GnssLogger                                           MARKER NAME
 G    8 C1C L1C D1C S1C C5Q L5Q D5Q S5Q                      SYS / #### / OBS TYPES
-R    4 C1C L1C D1C S1C                                      SYS / #### / OBS TYPES
-C    4 C2C L2C D2C S2C                                      SYS / #### / OBS TYPES
 E    8 C1C L1C D1C S1C C5Q L5Q D5Q S5Q                      SYS / #### / OBS TYPES
 E L5Q  0.00000                                              SYS / PHASE SHIFT
  C1C    0.000 C1P    0.000 C2C    0.000 C2P    0.000        GLONASS COD/PHS/BIS
@@ -858,11 +864,9 @@ G11                    -12882.26412      3222.43712        17.30012
 G12  20136967.66714     -2423.03914       846.72914        28.16814                                                                
 G15                     14170.13812     -3560.32412        15.63512                                                                
 G17                     11523.98012     -2880.99612        16.73612                                                                
-G19                      6755.80613     -1698.35913        19.88813                                                                
-G23                     10819.77012     -2698.71212        15.78612                                                                
-G29                    -17008.92912      4251.70412        15.18812   
 	\end{lstlisting}
-
+	\textbf{Note :} Les données ont été tronquées pour des raisons de lisibilité.
+	\textbf{Dataset complet : } \url{https://mega.nz/folder/dlRWAb5K#JNMzol3-uhl9gx0fF0147w}
 \end{frame}
 
 \section{Annexe 6}
@@ -938,6 +942,11 @@ def compread(filepath):
 	file.close()   
 	return pd.DataFrame(output[1:], columns=output[0])
 	\end{lstlisting}
+	\textbf{Code complet :} \url{github.com/n005/tipe}
+\end{frame}
+
+\begin{frame}{Annexe 8}
+	\frametitle{Étude dynamique (PPP, RTK)}
 \end{frame}
 %--------- THANK YOU Text ------- texlive-most -------------------
 %----------------------------------------------------

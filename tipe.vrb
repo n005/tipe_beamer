@@ -44,3 +44,4 @@ def compread(filepath):
 	file.close()
 	return pd.DataFrame(output[1:], columns=output[0])
 	\end{lstlisting}
+	\textbf{Code complet :} \url{github.com/n005/tipe}

@@ -119,8 +119,8 @@
 \headcommand {\beamer@framepages {38}{38}}
 \headcommand {\slideentry {13}{0}{2}{39/39}{}{1}}
 \headcommand {\beamer@framepages {39}{39}}
-\headcommand {\slideentry {13}{0}{2}{39/40}{}{1}}
-\headcommand {\beamer@framepages {39}{40}}
+\headcommand {\slideentry {13}{0}{3}{40/40}{}{1}}
+\headcommand {\beamer@framepages {40}{40}}
 \headcommand {\beamer@sectionpages {38}{40}}
 \headcommand {\beamer@subsectionpages {38}{40}}
 \headcommand {\sectionentry {14}{Annexe 6}{41}{Annexe 6}{1}}
@@ -133,8 +133,10 @@
 \headcommand {\beamer@framepages {42}{42}}
 \headcommand {\slideentry {15}{0}{1}{42/43}{}{1}}
 \headcommand {\beamer@framepages {42}{43}}
-\headcommand {\beamer@partpages {30}{43}}
-\headcommand {\beamer@subsectionpages {42}{43}}
-\headcommand {\beamer@sectionpages {42}{43}}
-\headcommand {\beamer@documentpages {43}}
-\headcommand {\gdef \inserttotalframenumber {43}}
+\headcommand {\slideentry {15}{0}{2}{44/44}{}{1}}
+\headcommand {\beamer@framepages {44}{44}}
+\headcommand {\beamer@partpages {30}{44}}
+\headcommand {\beamer@subsectionpages {42}{44}}
+\headcommand {\beamer@sectionpages {42}{44}}
+\headcommand {\beamer@documentpages {44}}
+\headcommand {\gdef \inserttotalframenumber {44}}

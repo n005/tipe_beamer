@@ -1980,6 +1980,11 @@ INPUT tipe.vrb
 INPUT ./tipe.vrb
 INPUT tipe.vrb
 INPUT /usr/share/texmf-dist/fonts/tfm/jknappen/ec/tcss0600.tfm
+OUTPUT tipe.vrb
+INPUT ./tipe.vrb
+INPUT tipe.vrb
+INPUT ./tipe.vrb
+INPUT tipe.vrb
 INPUT ./Figures/Clock bias.png
 INPUT ./Figures/Clock bias.png
 INPUT ./Figures/Clock bias.png
