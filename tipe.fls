@@ -1969,6 +1969,11 @@ INPUT ./Figures/phase.png
 INPUT ./Figures/phase.png
 INPUT ./Figures/phase.png
 INPUT ./Figures/phase.png
+INPUT ./Figures/duty_cycle_eg.png
+INPUT ./Figures/duty_cycle_eg.png
+INPUT ./Figures/duty_cycle_eg.png
+INPUT ./Figures/duty_cycle_eg.png
+INPUT ./Figures/duty_cycle_eg.png
 OUTPUT tipe.vrb
 INPUT ./tipe.vrb
 INPUT tipe.vrb

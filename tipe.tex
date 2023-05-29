@@ -41,6 +41,8 @@
 \usepackage[justification=centering]{caption}
 \renewcommand{\qedsymbol}{$\blacksquare$}
 
+\beamertemplatenavigationsymbolsempty
+
 %-------- packages to be used -------
 \usepackage{amsmath,amsfonts,amssymb,amscd,amsthm}
 \usepackage{graphicx,xcolor,comment}
@@ -306,7 +308,7 @@
 					\textbf{A un TEC de }$1.5\cdot 10^{17} m^{-2}$, \boxed{$L = 220m$}
 				\end{center}
 
-				On a besoin de la \textbf{phase} et de la \textbf{speudorange} sur deux fréquences.
+				On a besoin de la \textbf{phase} et de la \textbf{pseudorange} sur deux fréquences.
 				\begin{flushright}
 					\tiny{(Voir Annexe 2)}
 				\end{flushright}
@@ -353,12 +355,13 @@
 
         \textbf{Le signal GPS:} 
 	    \begin{itemize}
-            \item \textbf{Speudorange} - La speudorange (distance) s'évalue à l'aide d'une fonction de corrélation.
+            \item \textbf{Pseudorange} - La pseudorange (distance) s'évalue à l'aide d'une fonction de corrélation.
             \item \textbf{Phase} - La phase s'évalue sur le nombre de phases depuis le début d'acquisition.
         \end{itemize}
 		\begin{flushright}
 			\tiny{(Voir Annexe 3)}
 		\end{flushright}
+		Il est possible de connaître l'état de l'ionosphère (indice Kp).
 \end{frame}
 
 \begin{frame}{Protocole expérimental}
@@ -389,14 +392,14 @@
 		\begin{column}{0.5\textwidth}
 			\begin{figure}
 				\centering
-				\includegraphics[width=0.9\textwidth]{./Figures/skyplot.jpg}
+				\includegraphics[width=1\textwidth]{./Figures/skyplot.jpg}
 				\caption {Carte du ciel}
 			\end{figure}
 		\end{column}
 		\begin{column}{0.5\textwidth}
 			\begin{figure}
 				\centering
-				\includegraphics[width=0.9\textwidth]{./Figures/spot1.jpg}
+				\includegraphics[width=1\textwidth]{./Figures/spot1.jpg}
 				\caption {Image de la session 1, Nord sur la gauche}
 			\end{figure}
 		\end{column}
@@ -410,25 +413,26 @@
 			\textbf{Signal sur bruit :} 
 			\begin{itemize}
 				\item Le signal sur bruit est le rapport entre la puissance du signal et la puissance du bruit.
-				\item Il est exprimé en décibel.
-				\item Il est calculé par : $SNR = 10 \cdot log_{10}(\frac{P_{signal}}{P_{bruit}})$
+				\item $SNR = 10 \cdot log_{10}(\frac{P_{signal}}{P_{bruit}})$
 			\end{itemize}
 			\begin{figure}
 				\centering
-				\includegraphics[width=0.5\textwidth]{./Figures/skyplot.jpg}
+				\includegraphics[width=0.8\textwidth]{./Figures/skyplot.jpg}
 				\caption {Skyplot}
 			\end{figure}
 		\end{column}
 		\begin{column}{0.5\textwidth}
+			% \begin{figure}
+			% 	\centering
+			% 	\includegraphics[width=0.6\textwidth]{./Figures/G08_L1.png}
+			% 	\caption {Signal sur bruit G08}
+			% \end{figure}
 			\begin{figure}
-				\centering
-				\includegraphics[width=0.6\textwidth]{./Figures/G08_L1.png}
-				\caption {Signal sur bruit G08}
-			\end{figure}
-			\begin{figure}
-				\centering
-				\includegraphics[width=0.6\textwidth]{./Figures/G10_L1.png}
-				\caption {Signal sur bruit G10}
+				%\centering
+				\includegraphics[width=0.8\textwidth]{./Figures/G08_L1.png}
+				\includegraphics[width=0.8\textwidth]{./Figures/G10_L1.png}
+				%\caption {Signal sur bruit G10}
+				\caption {SNR, G08 et G10}
 			\end{figure}
 		\end{column}
 	\end{columns}
@@ -464,7 +468,7 @@
 			\begin{flushright}
 				\tiny{(Voir Démonstration Annexe 4)}
 			\end{flushright}
-			{\small \textbf{avec} $P$ la phase, $L_1$ la speudorange, $L_2$ la speudorange sur la deuxième fréquence et $\alpha$ le coefficient de réflexion.}
+			{\small \textbf{avec} $P$ la phase, $L_1$ la pseudorange, $L_2$ la pseudorange sur la deuxième fréquence et $\alpha$ le coefficient de réflexion.}
 		\end{column}
 		\begin{column}{0.5\textwidth}
 			\begin{figure}
@@ -472,7 +476,7 @@
 				\includegraphics[width=0.9\textwidth]{./Figures/multipath2.png}
 				\caption {Multipath \cite{esa}}	
 			\end{figure}
-			On a donc besoin de la \textbf{phase} et de la \textbf{speudorange} sur deux fréquences.
+			On a donc besoin de la \textbf{phase} et de la \textbf{pseudorange} sur deux fréquences.
 		\end{column}	
 	\end{columns}
 \end{frame}
@@ -516,7 +520,7 @@
 
 \begin{frame}{Protocole expérimental}
 	\begin{itemize}
-		\item Calcul du multipath à partir de la phase et de la speudorange.
+		\item Calcul du multipath à partir de la phase et de la pseudorange.
 		\item Basé sur un article de Umberto et al. \cite{mi8}
 		\begin{itemize}
 			\item Utilisation d'un \textit{Xiaomi mi 8} et de \textit{Google GNSS Logger} pour récupérer les fichiers RINEX. {\tiny (voir Annexe 5)}
@@ -736,6 +740,16 @@
 		\end{column}
 	\end{columns}
 \end{frame}
+\begin{frame}{Duty-Cycle}
+	Ainsi comme le récepteur ne connait que le nombre de phases, il l'initialise à chaque fois.
+	\newline
+	Lorsque qu'il y a une interruption de signal, un nouveau cycle recommence.
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.6\textwidth]{./Figures/duty_cycle_eg.png}
+		\caption{Exemple d'une interruption}
+	\end{figure}
+\end{frame}
 
 \section{Annexe 4}
 \begin{frame}
@@ -784,7 +798,7 @@
 	Fichier d'observation : \\
 	\begin{itemize}
 		\item Phase
-		\item Code (Speudorange)
+		\item Code (Pseudorange)
 		\item Doppler
 		\item Rapport signal sur bruit (C/N0) 
 	\end{itemize}
