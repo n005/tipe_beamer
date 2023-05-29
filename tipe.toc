@@ -14,3 +14,4 @@
 \beamer@sectionintoc {14}{Annexe 5}{39}{1}{13}
 \beamer@sectionintoc {15}{Annexe 6}{42}{1}{14}
 \beamer@sectionintoc {16}{Annexe 7}{43}{1}{15}
+\beamer@sectionintoc {17}{Annexe 8}{45}{1}{16}
