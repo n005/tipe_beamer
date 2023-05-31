@@ -143,8 +143,12 @@
 \headcommand {\sectionentry {17}{Annexe 8}{45}{Annexe 8}{1}}
 \headcommand {\slideentry {17}{0}{1}{45/45}{}{1}}
 \headcommand {\beamer@framepages {45}{45}}
-\headcommand {\beamer@partpages {31}{45}}
-\headcommand {\beamer@subsectionpages {45}{45}}
-\headcommand {\beamer@sectionpages {45}{45}}
-\headcommand {\beamer@documentpages {45}}
-\headcommand {\gdef \inserttotalframenumber {45}}
+\headcommand {\slideentry {17}{0}{2}{46/46}{}{1}}
+\headcommand {\beamer@framepages {46}{46}}
+\headcommand {\beamer@partpages {31}{46}}
+\headcommand {\beamer@subsectionpages {45}{46}}
+\headcommand {\beamer@sectionpages {45}{46}}
+\headcommand {\beamer@documentpages {46}}
+\headcommand {\gdef \inserttotalframenumber {16}}
+\headcommand {\gdef \inserttotalframenumber {30}}
+\headcommand {\gdef \appendixtotalframenumber {16}}
