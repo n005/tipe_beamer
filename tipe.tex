@@ -100,13 +100,13 @@
 %---------START EDITING HERE---------------------
 \title[Études des systèmes GNSS des smartphones]{Études des systèmes GNSS des smartphones}
 
-\author [Noë Charlier]{\textbf{Noë Charlier}}
+\author [Noë Charlier - n°52340]{\textbf{Noë Charlier}}
 
 \institute[Lycée Paul Constans] {\emph{Professeurs: }\textbf{C. Delacour, M. Petitcuenot}\\[1em]
 	Classe préparatoire aux grandes écoles\\PT\\Lycée Paul Constans\\[1em]
 \includegraphics[scale=0.4]{./Figures/logo Paul Constans.jpg}}
 
-\date[2022 - 2023]{\footnotesize TIPE - \textbf{2022, 2023}}
+\date[2022 - 2023]{\footnotesize TIPE - \textbf{2022, 2023} - N°\textbf{52340}}
 %--------- START DOCUMENT ------------------
 \begin{document}
 	
@@ -582,7 +582,7 @@
 			\begin{figure}
 				\centering
 				\includegraphics[width=0.8\textwidth]{./Figures/MP_G08_dis.png}
-				\caption {Multipath de G08, erreur 3,2m}
+				\caption {Multipath de G08, erreur $(1 \pm 7)m$}
 			\end{figure}
 			% \begin{figure}
 			% 	\centering
@@ -596,7 +596,7 @@
 			\begin{figure}
 				\centering
 				\includegraphics[width=0.8\textwidth]{./Figures/MP_G25_dis_camp.png}
-				\caption {Multipath en extérieur, erreur 60cm}
+				\caption {Multipath en extérieur, erreur $(0.2 \pm 1.2)m$}
 			\end{figure}
 			%\textit{J'ai pas encore les résultats, mais ça arrive.}
 		\end{column}
@@ -1021,6 +1021,43 @@ def compread(filepath):
 		\centering
 		\includegraphics[width=0.8\textwidth]{./Figures/ADR_vs_SpeudoR.jpg}
 		\caption {Comparaison ADR(corrigé) et Pseudo-range}
+	\end{figure}
+\end{frame}
+\begin{frame}{Réseau Centipede}
+	Réseau RTK, permettant de faire du positionnement RTK (\textit{Real Time Kinematic}, Cinématique temps réel) et DGNSS(GNSS différentiel).
+	\begin{columns}
+		\begin{column}{0.5\textwidth}
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.3\textwidth]{./Figures/centipede.png}
+				\caption {Logo - Centipede}
+			\end{figure}
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.8\textwidth]{./Figures/Centipede_map.png}
+				\caption {Réseau Centipede}
+			\end{figure}
+			
+		\end{column}
+	\end{columns}
+	Utilisation de RTKlib permettant de récupérer les données.
+\end{frame}
+
+\section{Annexe 9}
+\begin{frame}{Outils - RTKlib}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.9\textwidth]{./Figures/rtklib_over.jpg}
+		\caption{RTKlib}
+	\end{figure}
+\end{frame}
+\begin{frame}{Outils - GnssLogger}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.25\textwidth]{./Figures/gnss_logger.png}
+		\caption{GnssLogger}
 	\end{figure}
 \end{frame}
 %--------- THANK YOU Text ------- texlive-most -------------------

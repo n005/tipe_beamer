@@ -145,10 +145,19 @@
 \headcommand {\beamer@framepages {45}{45}}
 \headcommand {\slideentry {17}{0}{2}{46/46}{}{1}}
 \headcommand {\beamer@framepages {46}{46}}
-\headcommand {\beamer@partpages {31}{46}}
-\headcommand {\beamer@subsectionpages {45}{46}}
-\headcommand {\beamer@sectionpages {45}{46}}
-\headcommand {\beamer@documentpages {46}}
-\headcommand {\gdef \inserttotalframenumber {16}}
+\headcommand {\slideentry {17}{0}{3}{47/47}{}{1}}
+\headcommand {\beamer@framepages {47}{47}}
+\headcommand {\beamer@sectionpages {45}{47}}
+\headcommand {\beamer@subsectionpages {45}{47}}
+\headcommand {\sectionentry {18}{Annexe 9}{48}{Annexe 9}{1}}
+\headcommand {\slideentry {18}{0}{1}{48/48}{}{1}}
+\headcommand {\beamer@framepages {48}{48}}
+\headcommand {\slideentry {18}{0}{2}{49/49}{}{1}}
+\headcommand {\beamer@framepages {49}{49}}
+\headcommand {\beamer@partpages {31}{49}}
+\headcommand {\beamer@subsectionpages {48}{49}}
+\headcommand {\beamer@sectionpages {48}{49}}
+\headcommand {\beamer@documentpages {49}}
+\headcommand {\gdef \inserttotalframenumber {19}}
 \headcommand {\gdef \inserttotalframenumber {30}}
-\headcommand {\gdef \appendixtotalframenumber {16}}
+\headcommand {\gdef \appendixtotalframenumber {19}}

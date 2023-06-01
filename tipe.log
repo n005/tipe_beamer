@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.3.27)  31 MAY 2023 11:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.3.27)  1 JUN 2023 14:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1229,7 +1229,11 @@ Package biblatex Info: ... file 'tipe.bbl' found.
 Package biblatex Info: Reference section=0 on input line 111.
 Package biblatex Info: Reference segment=0 on input line 111.
  (./tipe.nav)
-<./Figures/logo Paul Constans.jpg, id=134, 181.3977pt x 98.769pt>
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 111.
+ (/usr/share/texmf-dist/tex/latex/base/ts1cmss.fd
+File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+<./Figures/logo Paul Constans.jpg, id=138, 181.3977pt x 98.769pt>
 File: ./Figures/logo Paul Constans.jpg Graphic file (type jpg)
 <use ./Figures/logo Paul Constans.jpg>
 Package pdftex.def Info: ./Figures/logo Paul Constans.jpg  used on input line 113.
@@ -1237,7 +1241,7 @@ Package pdftex.def Info: ./Figures/logo Paul Constans.jpg  used on input line 11
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
  <./Figures/logo Paul Constans.jpg>]
-<./Figures/stats.png, id=212, 303.38344pt x 162.6075pt>
+<./Figures/stats.png, id=218, 303.38344pt x 162.6075pt>
 File: ./Figures/stats.png Graphic file (type png)
 <use ./Figures/stats.png>
 Package pdftex.def Info: ./Figures/stats.png  used on input line 125.
@@ -1245,7 +1249,7 @@ Package pdftex.def Info: ./Figures/stats.png  used on input line 125.
  [2
 
  <./Figures/stats.png>]
-<./Figures/constellation.jpg, id=261, 1706.375pt x 1455.4375pt>
+<./Figures/constellation.jpg, id=267, 1706.375pt x 1455.4375pt>
 File: ./Figures/constellation.jpg Graphic file (type jpg)
 <use ./Figures/constellation.jpg>
 Package pdftex.def Info: ./Figures/constellation.jpg  used on input line 136.
@@ -1253,7 +1257,7 @@ Package pdftex.def Info: ./Figures/constellation.jpg  used on input line 136.
  [3
 
  <./Figures/constellation.jpg>]
-<./Figures/ENS_gnss.png, id=306, 481.8pt x 461.725pt>
+<./Figures/ENS_gnss.png, id=312, 481.8pt x 461.725pt>
 File: ./Figures/ENS_gnss.png Graphic file (type png)
 <use ./Figures/ENS_gnss.png>
 Package pdftex.def Info: ./Figures/ENS_gnss.png  used on input line 165.
@@ -1278,7 +1282,7 @@ File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mat
  <./Figures/ENS_gnss.png>] [5
 
 ]
-<./Figures/ENS_gnss2.png, id=406, 431.6125pt x 369.38pt>
+<./Figures/ENS_gnss2.png, id=412, 431.6125pt x 369.38pt>
 File: ./Figures/ENS_gnss2.png Graphic file (type png)
 <use ./Figures/ENS_gnss2.png>
 Package pdftex.def Info: ./Figures/ENS_gnss2.png  used on input line 197.
@@ -1286,12 +1290,12 @@ Package pdftex.def Info: ./Figures/ENS_gnss2.png  used on input line 197.
  [6
 
  <./Figures/ENS_gnss2.png>]
-<./Figures/multipath.png, id=452, 454.69875pt x 544.0325pt>
+<./Figures/multipath.png, id=458, 454.69875pt x 544.0325pt>
 File: ./Figures/multipath.png Graphic file (type png)
 <use ./Figures/multipath.png>
 Package pdftex.def Info: ./Figures/multipath.png  used on input line 225.
 (pdftex.def)             Requested size: 85.57382pt x 102.3794pt.
-<./Figures/dilution.png, id=456, 321.2pt x 183.68625pt>
+<./Figures/dilution.png, id=462, 321.2pt x 183.68625pt>
 File: ./Figures/dilution.png Graphic file (type png)
 <use ./Figures/dilution.png>
 Package pdftex.def Info: ./Figures/dilution.png  used on input line 225.
@@ -1310,7 +1314,7 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 ] [10
 
 ]
-<./Figures/iono_ucar.png, id=657, 564.1075pt x 761.84625pt>
+<./Figures/iono_ucar.png, id=663, 564.1075pt x 761.84625pt>
 File: ./Figures/iono_ucar.png Graphic file (type png)
 <use ./Figures/iono_ucar.png>
 Package pdftex.def Info: ./Figures/iono_ucar.png  used on input line 274.
@@ -1318,7 +1322,7 @@ Package pdftex.def Info: ./Figures/iono_ucar.png  used on input line 274.
  [11
 
  <./Figures/iono_ucar.png>]
-<./Figures/iono_e3a.png, id=704, 369.38pt x 498.86375pt>
+<./Figures/iono_e3a.png, id=710, 369.38pt x 498.86375pt>
 File: ./Figures/iono_e3a.png Graphic file (type png)
 <use ./Figures/iono_e3a.png>
 Package pdftex.def Info: ./Figures/iono_e3a.png  used on input line 300.
@@ -1326,7 +1330,7 @@ Package pdftex.def Info: ./Figures/iono_e3a.png  used on input line 300.
  [12
 
  <./Figures/iono_e3a.png>]
-<./Figures/iono_profil.png, id=750, 853.1875pt x 608.2725pt>
+<./Figures/iono_profil.png, id=756, 853.1875pt x 608.2725pt>
 File: ./Figures/iono_profil.png Graphic file (type png)
 <use ./Figures/iono_profil.png>
 Package pdftex.def Info: ./Figures/iono_profil.png  used on input line 331.
@@ -1338,12 +1342,12 @@ Overfull \hbox (12.89517pt too wide) in paragraph at lines 352--352
 []\OT1/cmss/bx/n/10.95 Afin de cal-cu-ler le TEC, un r^^Secepteur Dual-Band (L1, L5) est n^^Secessaire : 
  []
 
-<./Figures/dual_band.jpg, id=800, 788.9475pt x 602.25pt>
+<./Figures/dual_band.jpg, id=806, 788.9475pt x 602.25pt>
 File: ./Figures/dual_band.jpg Graphic file (type jpg)
 <use ./Figures/dual_band.jpg>
 Package pdftex.def Info: ./Figures/dual_band.jpg  used on input line 352.
 (pdftex.def)             Requested size: 154.03183pt x 117.5807pt.
-<./Figures/BCM47755.jpg, id=801, 241.90375pt x 241.90375pt>
+<./Figures/BCM47755.jpg, id=807, 241.90375pt x 241.90375pt>
 File: ./Figures/BCM47755.jpg Graphic file (type jpg)
 <use ./Figures/BCM47755.jpg>
 Package pdftex.def Info: ./Figures/BCM47755.jpg  used on input line 352.
@@ -1359,12 +1363,12 @@ Overfull \vbox (10.62141pt too high) detected at line 352
 ] [16
 
 ]
-<./Figures/gnss_logger.jpg, id=939, 212.795pt x 238.8925pt>
+<./Figures/gnss_logger.jpg, id=945, 212.795pt x 238.8925pt>
 File: ./Figures/gnss_logger.jpg Graphic file (type jpg)
 <use ./Figures/gnss_logger.jpg>
 Package pdftex.def Info: ./Figures/gnss_logger.jpg  used on input line 402.
 (pdftex.def)             Requested size: 71.88242pt x 80.69746pt.
-<./Figures/protoc.jpg, id=940, 4625.28pt x 2601.72pt>
+<./Figures/protoc.jpg, id=946, 4625.28pt x 2601.72pt>
 File: ./Figures/protoc.jpg Graphic file (type jpg)
 <use ./Figures/protoc.jpg>
 Package pdftex.def Info: ./Figures/protoc.jpg  used on input line 402.
@@ -1376,12 +1380,12 @@ Overfull \vbox (12.37898pt too high) detected at line 402
 [17
 
  <./Figures/gnss_logger.jpg> <./Figures/protoc.jpg>]
-<./Figures/skyplot.jpg, id=982, 419.5675pt x 402.50375pt>
+<./Figures/skyplot.jpg, id=988, 419.5675pt x 402.50375pt>
 File: ./Figures/skyplot.jpg Graphic file (type jpg)
 <use ./Figures/skyplot.jpg>
 Package pdftex.def Info: ./Figures/skyplot.jpg  used on input line 422.
 (pdftex.def)             Requested size: 154.03183pt x 147.76326pt.
-<./Figures/spot1.jpg, id=983, 4625.28pt x 2601.72pt>
+<./Figures/spot1.jpg, id=989, 4625.28pt x 2601.72pt>
 File: ./Figures/spot1.jpg Graphic file (type jpg)
 <use ./Figures/spot1.jpg>
 Package pdftex.def Info: ./Figures/spot1.jpg  used on input line 422.
@@ -1393,12 +1397,12 @@ File: ./Figures/skyplot.jpg Graphic file (type jpg)
 <use ./Figures/skyplot.jpg>
 Package pdftex.def Info: ./Figures/skyplot.jpg  used on input line 453.
 (pdftex.def)             Requested size: 102.68962pt x 98.51294pt.
-<./Figures/G08_L1.png, id=1026, 425.59pt x 281.05pt>
+<./Figures/G08_L1.png, id=1032, 425.59pt x 281.05pt>
 File: ./Figures/G08_L1.png Graphic file (type png)
 <use ./Figures/G08_L1.png>
 Package pdftex.def Info: ./Figures/G08_L1.png  used on input line 453.
 (pdftex.def)             Requested size: 136.91862pt x 90.41814pt.
-<./Figures/G10_L1.png, id=1027, 425.59pt x 281.05pt>
+<./Figures/G10_L1.png, id=1033, 425.59pt x 281.05pt>
 File: ./Figures/G10_L1.png Graphic file (type png)
 <use ./Figures/G10_L1.png>
 Package pdftex.def Info: ./Figures/G10_L1.png  used on input line 453.
@@ -1410,12 +1414,12 @@ Overfull \vbox (9.5124pt too high) detected at line 453
 [19
 
  <./Figures/G08_L1.png> <./Figures/G10_L1.png>]
-<./Figures/iono_G08.png, id=1072, 393.47pt x 279.0425pt>
+<./Figures/iono_G08.png, id=1078, 393.47pt x 279.0425pt>
 File: ./Figures/iono_G08.png Graphic file (type png)
 <use ./Figures/iono_G08.png>
 Package pdftex.def Info: ./Figures/iono_G08.png  used on input line 472.
 (pdftex.def)             Requested size: 154.03183pt x 109.23488pt.
-<./Figures/iono_G10.png, id=1073, 395.4775pt x 279.0425pt>
+<./Figures/iono_G10.png, id=1079, 395.4775pt x 279.0425pt>
 File: ./Figures/iono_G10.png Graphic file (type png)
 <use ./Figures/iono_G10.png>
 Package pdftex.def Info: ./Figures/iono_G10.png  used on input line 472.
@@ -1426,7 +1430,7 @@ Package pdftex.def Info: ./Figures/iono_G10.png  used on input line 472.
 
 LaTeX Warning: Command \L invalid in math mode on input line 498.
 
-<./Figures/multipath2.png, id=1118, 903.375pt x 544.0325pt>
+<./Figures/multipath2.png, id=1124, 903.375pt x 544.0325pt>
 File: ./Figures/multipath2.png Graphic file (type png)
 <use ./Figures/multipath2.png>
 Package pdftex.def Info: ./Figures/multipath2.png  used on input line 498.
@@ -1434,17 +1438,17 @@ Package pdftex.def Info: ./Figures/multipath2.png  used on input line 498.
 [21
 
  <./Figures/multipath2.png>]
-<./Figures/mp.jpg, id=1164, 513.92pt x 242.9075pt>
+<./Figures/mp.jpg, id=1170, 513.92pt x 242.9075pt>
 File: ./Figures/mp.jpg Graphic file (type jpg)
 <use ./Figures/mp.jpg>
 Package pdftex.def Info: ./Figures/mp.jpg  used on input line 524.
 (pdftex.def)             Requested size: 136.91862pt x 64.71487pt.
-<./Figures/correl.jpg, id=1168, 694.595pt x 271.0125pt>
+<./Figures/correl.jpg, id=1174, 694.595pt x 271.0125pt>
 File: ./Figures/correl.jpg Graphic file (type jpg)
 <use ./Figures/correl.jpg>
 Package pdftex.def Info: ./Figures/correl.jpg  used on input line 524.
 (pdftex.def)             Requested size: 119.80283pt x 46.74142pt.
-<./Figures/phase.jpg, id=1169, 506.89375pt x 299.1175pt>
+<./Figures/phase.jpg, id=1175, 506.89375pt x 299.1175pt>
 File: ./Figures/phase.jpg Graphic file (type jpg)
 <use ./Figures/phase.jpg>
 Package pdftex.def Info: ./Figures/phase.jpg  used on input line 524.
@@ -1458,12 +1462,12 @@ Overfull \vbox (2.11182pt too high) detected at line 524
  <./Figures/mp.jpg> <./Figures/correl.jpg> <./Figures/phase.jpg>] [23
 
 ]
-<./Figures/rtklib.jpg, id=1267, 194.7275pt x 194.7275pt>
+<./Figures/rtklib.jpg, id=1273, 194.7275pt x 194.7275pt>
 File: ./Figures/rtklib.jpg Graphic file (type jpg)
 <use ./Figures/rtklib.jpg>
 Package pdftex.def Info: ./Figures/rtklib.jpg  used on input line 574.
 (pdftex.def)             Requested size: 51.3448pt x 51.34402pt.
-<./Figures/UNAVCO.png, id=1268, 1284.8pt x 321.2pt>
+<./Figures/UNAVCO.png, id=1274, 1284.8pt x 321.2pt>
 File: ./Figures/UNAVCO.png Graphic file (type png)
 <use ./Figures/UNAVCO.png>
 Package pdftex.def Info: ./Figures/UNAVCO.png  used on input line 574.
@@ -1479,12 +1483,12 @@ Overfull \vbox (10.33237pt too high) detected at line 574
 [24
 
  <./Figures/rtklib.jpg> <./Figures/UNAVCO.png>]
-<./Figures/MP_G08_dis.png, id=1312, 393.47pt x 312.16624pt>
+<./Figures/MP_G08_dis.png, id=1318, 393.47pt x 312.16624pt>
 File: ./Figures/MP_G08_dis.png Graphic file (type png)
 <use ./Figures/MP_G08_dis.png>
 Package pdftex.def Info: ./Figures/MP_G08_dis.png  used on input line 604.
 (pdftex.def)             Requested size: 136.91862pt x 108.6263pt.
-<./Figures/MP_G25_dis_camp.png, id=1313, 387.4475pt x 312.16624pt>
+<./Figures/MP_G25_dis_camp.png, id=1319, 387.4475pt x 312.16624pt>
 File: ./Figures/MP_G25_dis_camp.png Graphic file (type png)
 <use ./Figures/MP_G25_dis_camp.png>
 Package pdftex.def Info: ./Figures/MP_G25_dis_camp.png  used on input line 604.
@@ -1492,12 +1496,12 @@ Package pdftex.def Info: ./Figures/MP_G25_dis_camp.png  used on input line 604.
  [25
 
  <./Figures/MP_G08_dis.png> <./Figures/MP_G25_dis_camp.png>]
-<./Figures/single_city.jpg, id=1359, 646.415pt x 419.5675pt>
+<./Figures/single_city.jpg, id=1365, 646.415pt x 419.5675pt>
 File: ./Figures/single_city.jpg Graphic file (type jpg)
 <use ./Figures/single_city.jpg>
 Package pdftex.def Info: ./Figures/single_city.jpg  used on input line 633.
 (pdftex.def)             Requested size: 136.91862pt x 88.86722pt.
-<./Figures/ppp_city.jpg, id=1361, 646.415pt x 419.5675pt>
+<./Figures/ppp_city.jpg, id=1367, 646.415pt x 419.5675pt>
 File: ./Figures/ppp_city.jpg Graphic file (type jpg)
 <use ./Figures/ppp_city.jpg>
 Package pdftex.def Info: ./Figures/ppp_city.jpg  used on input line 633.
@@ -1509,16 +1513,12 @@ Overfull \vbox (2.78781pt too high) detected at line 633
 [26
 
  <./Figures/single_city.jpg> <./Figures/ppp_city.jpg>]
-<./Figures/gdop15.png, id=1403, 995.72pt x 768.8725pt>
+<./Figures/gdop15.png, id=1409, 995.72pt x 768.8725pt>
 File: ./Figures/gdop15.png Graphic file (type png)
 <use ./Figures/gdop15.png>
 Package pdftex.def Info: ./Figures/gdop15.png  used on input line 657.
 (pdftex.def)             Requested size: 119.80283pt x 92.50708pt.
-LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 657.
- (/usr/share/texmf-dist/tex/latex/base/ts1cmss.fd
-File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-<./Figures/gdop35.png, id=1404, 1058.95625pt x 745.78625pt>
+<./Figures/gdop35.png, id=1410, 1058.95625pt x 745.78625pt>
 File: ./Figures/gdop35.png Graphic file (type png)
 <use ./Figures/gdop35.png>
 Package pdftex.def Info: ./Figures/gdop35.png  used on input line 657.
@@ -1526,12 +1526,12 @@ Package pdftex.def Info: ./Figures/gdop35.png  used on input line 657.
  [27
 
  <./Figures/gdop15.png> <./Figures/gdop35.png>]
-<./Figures/GDOP15.jpg, id=1450, 646.415pt x 419.5675pt>
+<./Figures/GDOP15.jpg, id=1456, 646.415pt x 419.5675pt>
 File: ./Figures/GDOP15.jpg Graphic file (type jpg)
 <use ./Figures/GDOP15.jpg>
 Package pdftex.def Info: ./Figures/GDOP15.jpg  used on input line 678.
 (pdftex.def)             Requested size: 136.91862pt x 88.86722pt.
-<./Figures/GDOP35.jpg, id=1451, 646.415pt x 419.5675pt>
+<./Figures/GDOP35.jpg, id=1457, 646.415pt x 419.5675pt>
 File: ./Figures/GDOP35.jpg Graphic file (type jpg)
 <use ./Figures/GDOP35.jpg>
 Package pdftex.def Info: ./Figures/GDOP35.jpg  used on input line 678.
@@ -1556,7 +1556,7 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10.95> not available
 
 
 ]
-<./Figures/SNR_elev.jpg, id=1704, 646.415pt x 419.5675pt>
+<./Figures/SNR_elev.jpg, id=1725, 646.415pt x 419.5675pt>
 File: ./Figures/SNR_elev.jpg Graphic file (type jpg)
 <use ./Figures/SNR_elev.jpg>
 Package pdftex.def Info: ./Figures/SNR_elev.jpg  used on input line 731.
@@ -1570,17 +1570,17 @@ Overfull \vbox (4.46144pt too high) detected at line 731
  <./Figures/SNR_elev.jpg>] [35
 
 ]
-<./Figures/correl1.png, id=1764, 457.71pt x 398.48875pt>
+<./Figures/correl1.png, id=1794, 457.71pt x 398.48875pt>
 File: ./Figures/correl1.png Graphic file (type png)
 <use ./Figures/correl1.png>
 Package pdftex.def Info: ./Figures/correl1.png  used on input line 796.
 (pdftex.def)             Requested size: 136.91862pt x 119.20096pt.
-<./Figures/correl2.png, id=1767, 463.7325pt x 257.96375pt>
+<./Figures/correl2.png, id=1797, 463.7325pt x 257.96375pt>
 File: ./Figures/correl2.png Graphic file (type png)
 <use ./Figures/correl2.png>
 Package pdftex.def Info: ./Figures/correl2.png  used on input line 796.
 (pdftex.def)             Requested size: 85.57382pt x 47.60051pt.
-<./Figures/phase.png, id=1770, 419.5675pt x 404.51125pt>
+<./Figures/phase.png, id=1800, 419.5675pt x 404.51125pt>
 File: ./Figures/phase.png Graphic file (type png)
 <use ./Figures/phase.png>
 Package pdftex.def Info: ./Figures/phase.png  used on input line 796.
@@ -1592,7 +1592,7 @@ Overfull \vbox (5.5441pt too high) detected at line 796
 [36
 
  <./Figures/correl1.png> <./Figures/correl2.png> <./Figures/phase.png>]
-<./Figures/duty_cycle_eg.png, id=1805, 425.59pt x 281.05pt>
+<./Figures/duty_cycle_eg.png, id=1838, 425.59pt x 281.05pt>
 File: ./Figures/duty_cycle_eg.png Graphic file (type png)
 <use ./Figures/duty_cycle_eg.png>
 Package pdftex.def Info: ./Figures/duty_cycle_eg.png  used on input line 806.
@@ -1645,12 +1645,12 @@ Overfull \hbox (55.5139pt too wide) in paragraph at lines 13--14
 ) [41
 
 ]
-<./Figures/Clock bias.png, id=1950, 474.27188pt x 245.41687pt>
+<./Figures/Clock bias.png, id=2004, 474.27188pt x 245.41687pt>
 File: ./Figures/Clock bias.png Graphic file (type png)
 <use ./Figures/Clock bias.png>
 Package pdftex.def Info: ./Figures/Clock bias.png  used on input line 941.
 (pdftex.def)             Requested size: 171.14764pt x 88.55971pt.
-<./Figures/Clock bias_freq.png, id=1951, 474.27188pt x 245.41687pt>
+<./Figures/Clock bias_freq.png, id=2005, 474.27188pt x 245.41687pt>
 File: ./Figures/Clock bias_freq.png Graphic file (type png)
 <use ./Figures/Clock bias_freq.png>
 Package pdftex.def Info: ./Figures/Clock bias_freq.png  used on input line 941.
@@ -1673,17 +1673,17 @@ Overfull \hbox (13.43793pt too wide) in paragraph at lines 40--42
 
 
 ]
-<./Figures/skyplot_dyn.png, id=2038, 886.31125pt x 878.28125pt>
+<./Figures/skyplot_dyn.png, id=2104, 886.31125pt x 878.28125pt>
 File: ./Figures/skyplot_dyn.png Graphic file (type png)
 <use ./Figures/skyplot_dyn.png>
 Package pdftex.def Info: ./Figures/skyplot_dyn.png  used on input line 1018.
 (pdftex.def)             Requested size: 119.80283pt x 118.71027pt.
-<./Figures/global_view.jpg, id=2039, 1384.17125pt x 910.40125pt>
+<./Figures/global_view.jpg, id=2105, 1384.17125pt x 910.40125pt>
 File: ./Figures/global_view.jpg Graphic file (type jpg)
 <use ./Figures/global_view.jpg>
 Package pdftex.def Info: ./Figures/global_view.jpg  used on input line 1018.
 (pdftex.def)             Requested size: 85.57382pt x 56.27481pt.
-<./Figures/L1-G32.png, id=2040, 425.59pt x 281.05pt>
+<./Figures/L1-G32.png, id=2106, 425.59pt x 281.05pt>
 File: ./Figures/L1-G32.png Graphic file (type png)
 <use ./Figures/L1-G32.png>
 Package pdftex.def Info: ./Figures/L1-G32.png  used on input line 1018.
@@ -1695,7 +1695,7 @@ Overfull \vbox (8.06467pt too high) detected at line 1018
 [45
 
  <./Figures/skyplot_dyn.png> <./Figures/global_view.jpg> <./Figures/L1-G32.png>]
-<./Figures/ADR_vs_SpeudoR.jpg, id=2070, 646.415pt x 419.5675pt>
+<./Figures/ADR_vs_SpeudoR.jpg, id=2140, 646.415pt x 419.5675pt>
 File: ./Figures/ADR_vs_SpeudoR.jpg Graphic file (type jpg)
 <use ./Figures/ADR_vs_SpeudoR.jpg>
 Package pdftex.def Info: ./Figures/ADR_vs_SpeudoR.jpg  used on input line 1025.
@@ -1707,6 +1707,35 @@ Overfull \vbox (3.41696pt too high) detected at line 1025
 [46
 
  <./Figures/ADR_vs_SpeudoR.jpg>]
+<./Figures/centipede.png, id=2172, 60.225pt x 65.24374pt>
+File: ./Figures/centipede.png Graphic file (type png)
+<use ./Figures/centipede.png>
+Package pdftex.def Info: ./Figures/centipede.png  used on input line 1046.
+(pdftex.def)             Requested size: 51.3448pt x 55.62468pt.
+<./Figures/Centipede_map.png, id=2173, 783.92876pt x 592.2125pt>
+File: ./Figures/Centipede_map.png Graphic file (type png)
+<use ./Figures/Centipede_map.png>
+Package pdftex.def Info: ./Figures/Centipede_map.png  used on input line 1046.
+(pdftex.def)             Requested size: 136.91862pt x 103.4309pt.
+ [47
+
+ <./Figures/centipede.png> <./Figures/Centipede_map.png>]
+<./Figures/rtklib_over.jpg, id=2208, 911.405pt x 513.92pt>
+File: ./Figures/rtklib_over.jpg Graphic file (type jpg)
+<use ./Figures/rtklib_over.jpg>
+Package pdftex.def Info: ./Figures/rtklib_over.jpg  used on input line 1055.
+(pdftex.def)             Requested size: 308.06367pt x 173.71104pt.
+ [48
+
+ <./Figures/rtklib_over.jpg>]
+<./Figures/gnss_logger.png, id=2240, 722.7pt x 1445.4pt>
+File: ./Figures/gnss_logger.png Graphic file (type png)
+<use ./Figures/gnss_logger.png>
+Package pdftex.def Info: ./Figures/gnss_logger.png  used on input line 1062.
+(pdftex.def)             Requested size: 85.57382pt x 171.14679pt.
+ [49
+
+ <./Figures/gnss_logger.png>]
 \tf@nav=\write8
 \openout8 = `tipe.nav'.
 
@@ -1721,17 +1750,17 @@ Overfull \vbox (3.41696pt too high) detected at line 1025
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `tipe.out' has not changed.
-(rerunfilecheck)             Checksum: 33613A11FA62F0BE3D881A4BB891748F;1837.
+(rerunfilecheck)             Checksum: 7D1F36211318A67F886DE8CAF681BAAE;1933.
 Package logreq Info: Writing requests to 'tipe.run.xml'.
 \openout1 = `tipe.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39150 strings out of 478238
- 766478 string characters out of 5850456
- 1487768 words of memory out of 5000000
- 56500 multiletter control sequences out of 15000+600000
- 500063 words of font info for 126 fonts, out of 8000000 for 9000
+ 39198 strings out of 478238
+ 767458 string characters out of 5850456
+ 1488794 words of memory out of 5000000
+ 56536 multiletter control sequences out of 15000+600000
+ 500750 words of font info for 128 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,19n,122p,1277b,2318s stack positions out of 5000i,500n,10000p,200000b,80000s
 
@@ -1740,11 +1769,11 @@ pdfTeX warning (dest): name{fig\\unskip\040\\penalty\040\\@M\040\040:dilution} h
 
 pdfTeX warning (dest): name{fig\\unskip\040\\penalty\040\\@M\040\040:multipath} has been referenced but does not exist, replaced by a fixed one
 
-{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb>
-Output written on tipe.pdf (46 pages, 13267486 bytes).
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx0800.pfb>
+Output written on tipe.pdf (49 pages, 13843458 bytes).
 PDF statistics:
- 2267 PDF objects out of 2487 (max. 8388607)
- 1976 compressed objects within 20 object streams
- 130 named destinations out of 1000 (max. 500000)
- 604 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2451 PDF objects out of 2487 (max. 8388607)
+ 2145 compressed objects within 22 object streams
+ 137 named destinations out of 1000 (max. 500000)
+ 632 words of extra memory for PDF output out of 10000 (max. 10000000)
 

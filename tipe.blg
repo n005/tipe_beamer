@@ -1,15 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
-[0] Config.pm:310> INFO - Logfile is 'tipe.blg'
-[138] biber:340> INFO - === mer. mai 31, 2023, 10:45:57
-[167] Biber.pm:418> INFO - Reading 'tipe.bcf'
-[289] Biber.pm:972> INFO - Found 10 citekeys in bib section 0
-[317] Biber.pm:4383> INFO - Processing section 0
-[335] Biber.pm:4574> INFO - Looking for bibtex file 'References.bib' for section 0
-[336] bibtex.pm:1713> INFO - LaTeX decoding ...
-[350] bibtex.pm:1518> INFO - Found BibTeX data source 'References.bib'
-[516] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[516] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[516] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'fr-FR'
-[516] Biber.pm:4209> INFO - No sort tailoring available for locale 'fr-FR'
-[538] bbl.pm:654> INFO - Writing 'tipe.bbl' with encoding 'UTF-8'
-[546] bbl.pm:757> INFO - Output to tipe.bbl
+[1] Config.pm:310> INFO - Logfile is 'tipe.blg'
+[119] biber:340> INFO - === jeu. juin  1, 2023, 14:02:35
+[144] Biber.pm:418> INFO - Reading 'tipe.bcf'
+[236] Biber.pm:972> INFO - Found 10 citekeys in bib section 0
+[256] Biber.pm:4383> INFO - Processing section 0
+[269] Biber.pm:4574> INFO - Looking for bibtex file 'References.bib' for section 0
+[270] bibtex.pm:1713> INFO - LaTeX decoding ...
+[280] bibtex.pm:1518> INFO - Found BibTeX data source 'References.bib'
+[391] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[392] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[392] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'fr-FR'
+[392] Biber.pm:4209> INFO - No sort tailoring available for locale 'fr-FR'
+[412] bbl.pm:654> INFO - Writing 'tipe.bbl' with encoding 'UTF-8'
+[419] bbl.pm:757> INFO - Output to tipe.bbl
