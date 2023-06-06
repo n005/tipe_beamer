@@ -574,7 +574,7 @@
 	\newline
 	\begin{columns}
 		\begin{column}{0.5\textwidth}
-			{\small En \textbf{ville}, on a une erreur de \textbf{2.5 mètres} en moyenne.}
+			{\small En \textbf{ville}, on a une erreur de \textbf{2.5 mètres} en moyenne. \cite{mi8}}
 			\begin{figure}
 				\centering
 				\includegraphics[width=0.8\textwidth]{./Figures/MP_G08_dis.png}
@@ -588,7 +588,7 @@
 		\end{column}
 
 		\begin{column}{0.5\textwidth}
-			{\small En \textbf{campagne}, l'erreur est de \textbf{quelques centimètres}.}
+			{\small En \textbf{campagne}, l'erreur est de \textbf{quelques dizaine de centimètres}. \cite{mi8}}
 			\begin{figure}
 				\centering
 				\includegraphics[width=0.8\textwidth]{./Figures/MP_G25_dis_camp.png}
@@ -839,6 +839,28 @@
 		\end{column}
 	\end{columns}
 \end{frame}
+\begin{frame}
+	\frametitle{Atténuation du multipath}
+
+	\begin{columns}
+		\begin{column}{0.5\textwidth}
+			\begin{figure}
+				\centering
+				\includegraphics[width=1\textwidth]{./Figures/MP_G10.png}
+				\caption{Multipath sur L1}
+			\end{figure}
+		\end{column}
+
+		\begin{column}{0.5\textwidth}
+			\begin{figure}
+				\centering
+				\includegraphics[width=1\textwidth]{./Figures/MP_G10_dis.png}
+				\caption{Multipath sur L5}
+			\end{figure}
+		\end{column}
+	\end{columns}
+
+\end{frame}
 
 \section{Annexe 5}
 \begin{frame}
@@ -1054,6 +1076,16 @@ def compread(filepath):
 		\centering
 		\includegraphics[width=0.25\textwidth]{./Figures/gnss_logger.png}
 		\caption{GnssLogger}
+	\end{figure}
+\end{frame}
+
+\section{Annexe 10}
+\begin{frame}{Comparaison Ville-campagne}
+	Résultats issue de l'étude de \cite{mi8}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.8\textwidth]{./Figures/Umberto_results.png}
+		\caption {Deux sites de mesures, a. campagne, b. ville}
 	\end{figure}
 \end{frame}
 %--------- THANK YOU Text ------- texlive-most -------------------

@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber tipe"] 1685620954 "tipe.bcf" "tipe.bbl" "tipe" 1685621797
+["biber tipe"] 1686042859 "tipe.bcf" "tipe.bbl" "tipe" 1686042873
   "References.bib" 1684439923 3510 59d1b6b8754d400f5c3fa67c47d8c1d8 ""
-  "tipe.bcf" 1685621797 109077 988b5a8ca43b41aebde7357e7418fbd8 "pdflatex"
+  "tipe.bcf" 1686042872 109215 283e15493553906e652eedccbfac5138 "pdflatex"
   (generated)
   "tipe.bbl"
   "tipe.blg"
-["pdflatex"] 1685621787 "/home/n005/PT/TIPE_beamer/tipe.tex" "tipe.pdf" "tipe" 1685621797
-  "/home/n005/PT/TIPE_beamer/tipe.tex" 1685621786 35297 82ccdcf776aa69e4999b2e9324fdf7aa ""
+["pdflatex"] 1686042860 "/home/n005/PT/TIPE_beamer/tipe.tex" "tipe.pdf" "tipe" 1686042873
+  "/home/n005/PT/TIPE_beamer/tipe.tex" 1686042846 36104 b1e12cae226bac51c976161d36a887b7 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1650183167 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1650183167 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/tcss0600.tfm" 1650183167 1536 d1b127de7ce318d6eac2b01aea48d7ed ""
@@ -343,9 +343,12 @@
   "Figures/GDOP35.jpg" 1684495065 80327 d52945005319d864213a2105d10a797c ""
   "Figures/L1-G32.png" 1685522384 33926 a61d8bb82c0c5fdad057288c003bb6d3 ""
   "Figures/MP_G08_dis.png" 1685037809 22269 fa323fbe1d907308e4dd5757fbebcab6 ""
+  "Figures/MP_G10.png" 1685037814 9271 de39eb66f5dd1d167b2eafb52619a2a2 ""
+  "Figures/MP_G10_dis.png" 1685037813 21796 3e71ad1307256155a3c38eb9b5b2437e ""
   "Figures/MP_G25_dis_camp.png" 1685356157 21645 386b40f850bcc7e3ed235adc8ac96526 ""
   "Figures/SNR_elev.jpg" 1685037816 66028 92acc1b01d8b8e5f8093b737d75d584e ""
   "Figures/UNAVCO.png" 1684500865 43028 83a5fafbdd7f1af8a78737867a8d5e25 ""
+  "Figures/Umberto_results.png" 1686042588 96242 da295d09fd33ca4049d99036b3e18a96 ""
   "Figures/centipede.png" 1685609265 2532 a5ffa2447fe3ad0a48575ffe62438b7c ""
   "Figures/constellation.jpg" 1680714178 342876 4f49a06d21d4bb9df060c3bdc922ab4e ""
   "Figures/correl.jpg" 1684439549 22963 606d07d34a241f2ccf938733533b9361 ""
@@ -379,14 +382,14 @@
   "Figures/skyplot_dyn.png" 1685523521 237573 8fe3ae59745720a207eca68c92a6a301 ""
   "Figures/spot1.jpg" 1685608472 2182917 59afe9ed441b8b498402c2ad658a22a0 ""
   "Figures/stats.png" 1680009817 17349 c8ad7b8ef6f6e8aa2ab28c95e3968b35 ""
-  "tipe.aux" 1685621797 16226 9f7e35cc8ce37e39aefe8762ca6bcc98 "pdflatex"
-  "tipe.bbl" 1685620956 13982 e71901efaddb46f69c79d9ec3197912c "biber tipe"
-  "tipe.nav" 1685621797 7846 995e459ceabb53c50bfa519f1ef95bf4 "pdflatex"
-  "tipe.out" 1685621797 1933 7d1f36211318a67f886de8caf681baae "pdflatex"
-  "tipe.run.xml" 1685621797 2304 10cab2975671ed551025cd8ea85065e8 "pdflatex"
-  "tipe.tex" 1685621786 35297 82ccdcf776aa69e4999b2e9324fdf7aa ""
-  "tipe.toc" 1685621797 855 01866d6de6b72993ec1d62eb9f9ba48d "pdflatex"
-  "tipe.vrb" 1685621796 1218 add1845d3c474f3dfd8ea41fb9170544 "pdflatex"
+  "tipe.aux" 1686042872 16902 a5aabb9f6ffcafa5294a080e6720a06c "pdflatex"
+  "tipe.bbl" 1686042860 13982 e71901efaddb46f69c79d9ec3197912c "biber tipe"
+  "tipe.nav" 1686042872 8188 29a8c3fb317b6a1eb7c69519b1fc036c "pdflatex"
+  "tipe.out" 1686042872 2034 9cce5b98eae69f56244dd51dee161901 "pdflatex"
+  "tipe.run.xml" 1686042872 2304 10cab2975671ed551025cd8ea85065e8 "pdflatex"
+  "tipe.tex" 1686042846 36104 b1e12cae226bac51c976161d36a887b7 ""
+  "tipe.toc" 1686042872 903 7683c914fd6b587bb5acb36d84ec0f18 "pdflatex"
+  "tipe.vrb" 1686042871 1218 add1845d3c474f3dfd8ea41fb9170544 "pdflatex"
   (generated)
   "tipe.aux"
   "tipe.bcf"
